@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './components/Header.js'
 
 class App  extends Component {
   state = {  }
   render() { 
     return (
       <div className= "App">
-        <h1> This is where our project will be</h1>
+        <Header/>
       </div>
       );
   }
