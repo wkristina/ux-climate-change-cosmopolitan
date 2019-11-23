@@ -10,7 +10,6 @@ class Header extends Component {
                     <h1 style={{textAlign:"center"}}>How do you affect the climate?</h1>
                     </div>
                 </div>
- 
             </div>
          );
     }
