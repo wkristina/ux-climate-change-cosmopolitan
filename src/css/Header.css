@@ -1,0 +1,17 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.content{
+    padding-top: 100px;
+}
+
+.textHead{
+    padding-left: 200px;
+}
+
+.picture{
+    padding-left: 1000px;
+    padding-bottom: 2000px;
+}
