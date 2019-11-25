@@ -10,7 +10,7 @@ class Articles extends Component {
         <div class="ui card">
         <div class="image"><img src="https://images.pexels.com/photos/2727483/pexels-photo-2727483.jpeg?cs=srgb&dl=brown-and-white-concrete-building-2727483.jpg&fm=jpg" alt="Dummy" /></div>
         <div class="content">
-          <div class="header">Shocking!</div>
+          <div class="header">Shocking!!!</div>
           <div class="description">This is how much the fashion industry really affects the climate!</div>
         </div>
       </div> 
