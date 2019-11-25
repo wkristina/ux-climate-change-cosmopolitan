@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ux-climate-change-cosmopolitan/precache-manifest.dc8fc74e99d4a5597332e65a9728498a.js"
+  "/ux-climate-change-cosmopolitan/precache-manifest.394d0de94b554a8160645f22c84d0cfc.js"
 );
 
 self.addEventListener('message', (event) => {
