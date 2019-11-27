@@ -3,11 +3,19 @@ h1{
     text-align: left;
 }
 
-.content{
-    padding-top: 100px;
+
+
+#headerGrid{
+    margin-left: 450px;
 }
 
-.textHead{
-    padding-left: 200px;
+
+#headerRow{
+    display: inline-block;
+  margin-top: 50px;
+}
+
+#headerText{
+    margin-top: 20px;
 }
 

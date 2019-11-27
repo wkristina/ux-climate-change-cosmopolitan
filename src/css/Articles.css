@@ -2,10 +2,10 @@
     text-align: center;
 }
 
-.ui.two.column.grid{
+#articles{
     display: inline-block
 }
 
-h2, .header, .description{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h2, .content{
+    font-family: Charter,Georgia,Times,Serif;
 }

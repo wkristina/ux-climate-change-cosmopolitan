@@ -10,9 +10,10 @@ class CO2Emission extends Component {
         tempIndexYear: 0,
         tempIndexYear2: 0,
         indexYear: 0,
-        indexYear2: 0,
-        searchedYearData: [],
-        searchYear2Data: []
+        indexYear2: 263,
+        year1: 1751,
+        year2: 2014,
+        legend: 0
      }
     async componentDidMount() {
         const url = "https://my.api.mockaroo.com/co2.json?key=8eb9e6f0";
@@ -26,9 +27,10 @@ class CO2Emission extends Component {
           emission => emission.Year === parseInt(Year)
       );
       this.setState({
-        tempIndexYear: index
+        tempIndexYear: index,
+        year1: Year
+
       })
-      console.log(index);
        };
     
        handleInputSecond  = Year => {
@@ -36,18 +38,17 @@ class CO2Emission extends Component {
           emission => emission.Year === parseInt(Year)
       );
         this.setState({
-          tempIndexYear2: index2
+          tempIndexYear2: index2,
+          year2: Year
         })
-        console.log(index2);
        };
        
-       //why are index & index2 always -1? findIndex not working as it is supposed to
-      
        compare = () =>{
         if (this.state.tempIndexYearindex !== -1 && this.state.tempIndexYear2 !== -1) 
         {
           this.setState({indexYear: this.state.tempIndexYear});
           this.setState({indexYear2: this.state.tempIndexYear2});
+          this.setState({legend: <Legend />});
         } else {
           alert("Year could not be found.");
         }
@@ -69,23 +70,30 @@ class CO2Emission extends Component {
 
 
         return (
-     <div style={{ width: "350px", height: "400px", float: "left" }}>
-        <ResponsiveContainer>
-        <BarChart width={500} height={300} data={dataBarChart}
+     <div >
+       <div class="ui centered two column grid">
+       <div className="column"><h1> CO2 Emissions </h1> </div> 
+       <div className="centered two column row">
+       <div className="column"> <BarChart width={500} height={300} data={dataBarChart}
             margin={{top: 5, right: 30, left: 20, bottom: 5}} >
        <CartesianGrid strokeDasharray="3 3"/>
        <XAxis dataKey="name"/>
        <YAxis/>
-       <Legend />
-       <Bar dataKey="CO2" fill="#8884d8" />
-        <Bar dataKey="CO" fill="#82ca9d" />
+       {this.state.legend}
+       <Bar name ={this.state.year1} dataKey="CO2" fill="#8884d8" minPointSize={5} />
+        <Bar name ={this.state.year2} dataKey="CO" fill="#82ca9d" minPointSize={5} />
       </BarChart>
-      </ResponsiveContainer>
+      </div>
+      </div>
+      </div>
       <CompareBoxes handleInputFirst={this.handleInputFirst}
         handleInputSecond={this.handleInputSecond}
         compare={this.compare}
         year1={this.state.tempIndexYear}
         year2={this.state.tempIndexYear2}/>
+        
+        <a className="linkTo" href="/sea">See data for the sea level here!</a>
+        
             </div>
           );
     }

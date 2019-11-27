@@ -24,3 +24,23 @@
 .item{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
+.linkTo{
+  color: blue;
+}
+
+#bigArticle{
+  margin-top: 15px;
+}
+
+#headerBigArticle{
+  background-color: dodgerblue;
+}
