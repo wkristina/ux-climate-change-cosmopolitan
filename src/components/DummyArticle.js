@@ -5,10 +5,11 @@ class DummyArticle extends Component {
     render() { 
         return ( 
             <div>
+                <h1>More exciting content coming soon!</h1>
                 <a>
-                Here, we can place a dummy article to display when the user clicks on a link.
-                We should also make sure to include links to the fact pages.
+                We are working hard to present you more content. Thanks for your patience! Meanwhile, why don't you check out the facts about 
                 </a>
+                <a className="linkTo" href="/ux-climate-change-cosmopolitan/co2"> CO2 emissions</a>?
             </div>
          );
     }

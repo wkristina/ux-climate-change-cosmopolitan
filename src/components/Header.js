@@ -10,7 +10,7 @@ class Header extends Component {
                     <div id= "headerRow"className="row">
                     <div id="headerText"className="column">
                     <h2 >
-                    <span style={{backgroundColor:"white", color: "#286A8C"}}>Big yikes</span>
+                    <span style={{backgroundColor:"white", color: "#286A8C"}}>Sustainable is the new trend</span>
                     </h2>
                     <h1>
                     <span style={{backgroundColor:"white", color: "#286A8C"}}>How do you affect the climate?</span>
