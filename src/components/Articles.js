@@ -23,12 +23,12 @@ class Articles extends Component {
       </a>
       </div>
       <div className="column">
-      <a href="/ux-climate-change-cosmopolitan/article">
+      <a href="/ux-climate-change-cosmopolitan/celeb">
       <div class="ui card">
         <div class="image"><img src="https://lh3.googleusercontent.com/Owgt6-Z35E_khZdC2e364IuFJgQE_fuFDkeL9y0V7bD7ksPyS7l5HbmguVeP2zZLuD6hRFvUnDNoGlViTv9kSfTRKt6YNOcXX1h14c9Ln4EG59GGZOUoCuWrx-bhC8MebAfy_tIqpB7_aNvZCvLEDnTMJmI7VUgNWVCgatAcctQJ8SQzs1XFMCBtVVQDDAzHxTlEBlCk5oyfd0-HAPznFtLnkXAfrRCNI951x37TU7X4LBWNw3OOAWq7_oWjP-5r_D0LeyjETrUH8Wmq51y2C9yN3r4R87HAGNw3OgROms6xQXZtsbFpGgR5C5w1stkj0u4hEP7GzHNJJMkP-0dUXcfnGGXU-WqLWVEw-QUjwoiRP1txGpZrtEn8QrAkuvGWytFFb5ZeTwgCAnqTbVuYMWvDY8veudoHOqWg2bxfb0bgFXel-oF-ycAVYZOlI738VTB-tNlEDBYgsoMxFtIceHN6dMIMy8aprf2Bcr_I0zMJlfTknfhL-dodARDJVKi3AAsVreyKtrwkPry2gsGuC7gX88lHf92PxLmOzll2two9LB5fqC9dLtnLAuO9YLOwz9kN2vThMXCnHyxW56lg90z221IYFFTfWX1jfox1W2Vb3EPhCPmAn01PeSr6wICQOUlDPkzRxVWMkU-lTOVDWF6IqXkQeRyvRcmoBa8FnvSx7mExk25xfYsfve6z3pA8K-aCA8cfQto_1CSpncFTdhhaU_CFYubzYA3QR_N2mPa69lA=w604-h903-no" alt="Dummy" /></div>
         <div class="content">
           <div class="header">This just in!</div>
-          <div class="description">Read what [celebrity] has said about climate change!</div>
+          <div class="description">Read what Emma Watson has said about climate change!</div>
         </div>
         </div>
         </a>

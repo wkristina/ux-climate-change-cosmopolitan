@@ -12,6 +12,7 @@ import Temperature from './components/Temperature.js';
 import GlacierSize from './components/GlacierSize.js';
 import SeaLevel from './components/SeaLevel.js';
 import DummyArticle from './components/DummyArticle.js';
+import Celebs from './components/Celebs.js';
 import './App.css';
 
 export default function App() {
@@ -121,7 +122,7 @@ function CO2(){
 }
 
 function Celebrities(){
-  return <h2>Celebs</h2>;
+  return <Celebs/>;
 };
 
 function Beauty(){
@@ -129,15 +130,15 @@ function Beauty(){
 };
 
 function Temp(){
-  return <Temperature/>
+  return <DummyArticle/>
 }
 
 function Glacier(){
-  return <GlacierSize/>
+  return <DummyArticle/>
 }
 
 function Sea(){
-  return <SeaLevel/>
+  return <DummyArticle/>
 }
 
 function Dummy(){

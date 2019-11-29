@@ -34,7 +34,7 @@ a:hover{
 }
 
 .linkTo{
-  color: blue;
+  color: fuchsia;
 }
 
 #bigArticle{
@@ -44,3 +44,21 @@ a:hover{
 #headerBigArticle{
   background-color: dodgerblue;
 }
+
+.loadingContainer{
+  text-align: center
+}
+
+.loadingWrapper{
+  display: inline-block
+}
+
+#inputYearOne{
+  background-color: "#8884d8" 
+       
+}
+
+#inputYearTwo{
+  background-color: "#82ca9d"
+}
+

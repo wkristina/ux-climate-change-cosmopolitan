@@ -15,9 +15,9 @@ class CompareBoxes extends Component {
     render() { 
         return ( 
             <div className="ui centered two column grid" >
-            <div className="ui input"><input type="text" placeholder="enter year..." onChange={this.handleYear}/></div>     
-            <div className="ui input"><input type="text" placeholder="enter year..." onChange={this.handleYear2}/></div>
-            <button className="ui button" type="button" onClick={this.props.compare}> compare </button>
+            <div className="ui input"><input id="inputYearOne" type="text" placeholder="enter year..." onChange={this.handleYear}/></div>     
+            <div className="ui input"><input id="inputYearTwo" type="text" placeholder="enter year..."  onChange={this.handleYear2}/></div>
+            <button className="ui button" type="button" disabled={!this.props.year1 || !this.props.year2} onClick={this.props.compare}> compare </button>
             </div>
          );
     }
