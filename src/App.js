@@ -13,6 +13,8 @@ import GlacierSize from './components/GlacierSize.js';
 import SeaLevel from './components/SeaLevel.js';
 import DummyArticle from './components/DummyArticle.js';
 import Celebs from './components/Celebs.js';
+import StyleP from './components/Style.js';
+import BeautyP from './components/Beauty.js';
 import './App.css';
 
 export default function App() {
@@ -114,7 +116,7 @@ function Cosmopolitan() {
 }
 
 function Style() {
-  return <DummyArticle/>;
+  return <StyleP/>;
 }
 
 function CO2(){
@@ -126,7 +128,7 @@ function Celebrities(){
 };
 
 function Beauty(){
-  return <DummyArticle/>;
+  return <BeautyP/>;
 };
 
 function Temp(){

@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import BottomArticles from './Bottom_Articles.js';
 
-class Celebs extends Component {
+class StyleP extends Component {
     state = {  }
     render() { 
-        return ( 
+        return (  
             <div>
-                <h1 class="ui center aligned header">Celebs & Climate Change</h1>
+                <h1 class="ui center aligned header">Sustainable Style</h1>
                 <div class="ui centered two column grid">
-  <div class="column"><img src="https://ca.hellomagazine.com/images/stories/0/2017/06/05/000/471/097/gallery_5_3.jpg" alt="Emma Watson, Jane Fonda, Leonardo DiCaprio"class="ui image" /></div>
+  <div class="column"><img src="https://lh3.googleusercontent.com/mYqFM_URrhaJOlyQWf30r7cNdbYNWau0Ijur0w5rYo8xBt_zjOMTyC5KpaoYSi_gPq1jlLbri8zqvv76W9qGGb4nEEFuW_dKUffMM_mLAGuBIKQvUcbYS8YTTtuBlV6nNQ7tOHDTEE9waGYzoqQwrYlK5Oq5Lgl7vqBBUniRZQjtLiqW5knRdRmLpLIWwJ6Qbpq2qFx6C9-PIHuFO1FvE4wmRJQsvXo4IJzgK98Mx8HbSu60Oe5TpTjY3yiQhLwi8W0uwkgtkbMYBjV5fXxWCyxz2ohwDigrlO43EO9KpWOq0eHo_lQGT1zkLQ2iB0bHpKXTN9oRu17h-K6vkJ7OJtZQt17MLiG9LlplrjRK_t1zI2ifF5ieXkbXpmQ65naPh_DpPFh8iInmFyqZevY6ERejk7qYS3isz8K9OpohVps9jZy4cSvPAx5mSedL4otYHRw4z2wHIXbZwjtRvXsUCyV-sGCytxMj90aCjZ0VAo5_TrUfoj3J_BCoILnR-S6IGtXEgOYTTHvM097gdTzbIILjOpY2ckHzXIsskEhnQFB6zrMYaDmMnF1Zn13kv3HVQmoayNEMVGZ8jhBbZyhhZtOFa3gjxM0HAXsOeJtw0TPon8D7C2RzSg-Wb_jXC2n9Wvt5BRaWpt46nbQA2evZqmkkIZsoQfBZmI_ttZ39MjEzU0ZgsXCPlxwlkxxyCTe6aHQyTdTIADMlXggtzirmXCsdA8K8hMCs_48R2A2DLKzqgMGK=w1200-h800-no" alt="Sustainable Fashion Show"class="ui image" /></div>
   <div class="centered two column row">
     <div class="column">Is it more important for something to be leading-edge or to be best-of-breed? The portals factor can be delivered as-a-service to wherever it’s intended to go – mobile. Our infinitely reconfigurable feature set is unmatched in the industry, but our C2C2C paradigms and easy configuration is frequently considered a terrific achievement. It sounds wonderful, but it's 100 percent accurate! The experiences factor is compelling. What do we integrate? Anything and everything, regardless of incomprehensibility! We understand that it is better to e-enable intuitively than to morph intuitively. Our infinitely reconfigurable feature set is unmatched in the industry, but our granular integrated, value-added convergence and easy configuration is frequently considered a remarkable achievement. Our feature set is unparalleled in the industry, but our plug-and-play re-purposing and easy configuration is frequently considered a remarkable achievement. We think that most viral web-based applications use far too much Python, and not enough Java. The capacity to enable perfectly leads to the capacity to enable perfectly leads to the capacity to synthesize interactively. Our infinitely reconfigurable feature set is unparalleled in the industry, but our back-end performance and non-complex configuration is frequently considered a terrific achievement. Without C2C, you will lack social networks. 
 </div>
   </div>
   <div className="centered two column row">
     <div className="column">
-      <img src="https://lh3.googleusercontent.com/HzhhmB5znSpZyOqsqvaWWTQie0J_QxcpmEsJZ_Lo6Vvfgb5qK9rmQASfGOUJE6t4yXwK0fNc4_ejGSVPFCvT3juw2fIel_iYvo693HnoaepGhshlx6rXxjSOv0afpwdirjPhdnENWGJMQiU0axMb2FU0veOhlfUI1OW_8NeebYYicwiUcABqhz5EWYqHGflbQeIT5r-nljOcasQ-JECkVOqkoEV4eK8wxLDw-5Fs33TeA5HLvOG4Ij9gqUVqHjdGhDFNW8Uh9ORo7ggFGfaCPMi9fh8bC2y3TgrfRaWLf-x8MUx_rvOpXYzqSDQS5QveL2zVtsXm_jRHCTr5qk6_w4p1JKoCdxLTOXQAs2s4QYJKX95XrXdJveRbgWoa1ICWGApg7-N75a2C02Qw49Iwo9M3Jf6hB1XhK7SpnNMFPJbjPreltJzGglv4D9TvLbk5VPVJ8NQ5DYCGzaMaMtE4k_GIM2T4-zmKGRFqsGULFGdcl1itbrJDNvaWDK7_FkGkP_iHtYbNYR8E5kJAwx1aj6rJUWFrkQYxWTv3Qq3LjNqPQDB8ph2K9XHmvXwJOlrTkf2UQqseDx8C6K9w7udhwDDZJkwZGxcmKV7HlVa2GZ03eoOEnR4t25J7Ik_6Cr5X9cObn_4l3kibDCHLTKsaUP6R7j0KkUCeFNaFg1k6TV6mXHTwFNaZlcTYkos4TuyTY5g6frnPRZL8QrV_2BaK3UcOzUUqf9UOS7vVAWrhQ3nbNZQ=w1365-h903-no" alt="Billie Eilish"/>
+      <img src="https://lh3.googleusercontent.com/UaQIz1GWxBgC7AgZseQT5i6VYJI1LFPN76wt-5Sq8434_jO81K_hiGUACyU8R9aSrWlvG_J-vnm-fCiaoytX4sf-aNrxM2AYDi8jULhHhTq2YWjgxEjbhYWgSXtW8wF4i-g-sq9AjFgCr9v2uDmfiU9OYYP0hB0tdVeQRbLVRl_KonmnI0c6xC7Y5RmpgVaghFtABJzhoZBB8xa3ZndzvnYNpfA_QYLVQGCIH1_TdlhGbKG-PVYR2NOtABwSczZPlqfJy7-lpjYJXgOgKvmOol_he5uspWVnOI-QmWnjsHnGvnSMam12NQ6Q5Zy5uSnOY4zwDsgiJFxap87u8uCKqpOZ6tZYp-MHrnhGezRd10b1-_hrjM_YSOOTOXJkwYfnxLsjnSBYPQrQ5BkOqDXrohAcK6H4EEkxpojqOyJC_iVVi-Dj2FZfZ60LC4Z0lAklXKRCHFbkbbX3n55QO4lwiv14lRAiH21-BfZR2lgUagrzeYqywyjacWVE2Aubg22yJlFKgJUbeZ0hQeyBnJTP78w6KW5_iV5T0BLf00XJupSWCkt6Afr8IvJMPGNQCFnTTuDMQhDSTUU4w60kCPM-aGWsChiG4Piqy0Zz341l76PHJ2Y-6hU6g1y1K5fGDdRxsEhtViLzX1gKDISTo2oK56oBGo8G7h3mwAhcuiiYtu6_9LPCEEFnwnQ7sTtLzmk-5toxSYQFOLJDTalksceMJ2Kp-ycHLOe5jBtKx2mWfx-HBlEC=w750-h525-no" alt="Dump of Clothes"/>
     </div>
   </div>
   <div class="centered two column row">
@@ -24,11 +24,10 @@ class Celebs extends Component {
 </div>
   </div>
   <BottomArticles/>
-  </div>
-
+</div>
             </div>
-         );
+        );
     }
 }
  
-export default Celebs;
+export default StyleP;
