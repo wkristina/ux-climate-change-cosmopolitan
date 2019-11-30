@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## General info
+
+This project is a website about Climate Change, targeted at Cosmopolitan Magazine readers. It is possible to see various kinds of data on the page. The link is provided.
+When running the project locally:
+
 ## Available Scripts
 
 In the project directory, you can run:
