@@ -62,3 +62,7 @@ a:hover{
   background-color: "#82ca9d"
 }
 
+.item{
+  display: inline-block;
+    
+}

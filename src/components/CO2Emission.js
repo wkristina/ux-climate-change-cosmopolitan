@@ -46,7 +46,7 @@ class CO2Emission extends Component {
        };
        
        compare = () =>{
-        if (this.state.tempIndexYearindex !== -1 && this.state.tempIndexYear2 !== -1) 
+        if (this.state.tempIndexYear !== -1 && this.state.tempIndexYear2 !== -1) 
         {
           this.setState({indexYear: this.state.tempIndexYear});
           this.setState({indexYear2: this.state.tempIndexYear2});
