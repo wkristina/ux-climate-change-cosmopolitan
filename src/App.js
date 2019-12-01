@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -26,10 +26,10 @@ export default function App() {
     <Router>
       <Header/>
       <div className="ui borderless menu">
-  <a className="item"><Link to="/ux-climate-change-cosmopolitan"><img className="logo" src="https://lh3.googleusercontent.com/HXP4Nmas-z2i7NhtK6dPDbOxiTiaKdVpUkoAsYdDl_Dd6CNIMTa7lVCtugT66ZC-jC_yleECUeqFki62IBKCaFiJQ5MhEJCtjCz9lpp5v8-Z_bksVucZrsSauZPCWtmeCTZqsAHKmvAVQ36tuntJPN27kmF3Ta6XIxP6YT6I9NrbEAu7O0VPQ44O8cv1EFNnNcvuTiIfbGpoeYJJs9pddH433atJHRjR-ECa8i1yqsNwo0PncYp_jrwxgERN33RgGM0SN8vVMnSdOOZeVnyvHMVmnxkY7YYVIyjXDiAk1mdslkVyQHpKBT6os4bXUJ88zig6o0GAYLA_EK8YZsjSwgUevLuor0syvjezNnbH3Tpu1YXhhEMJZ2ItcgkFGIsxZe2OytqZeqAE5KaDr_HepVNhYjoWrd_BIC-TyHfEDqatu-8af6jNOd8MegtUSprVM8VpSn1O3JAyXMAoQYlyZSG6fUQB89IWZTsvPEvOqf-kWjkW6LR86mW1GaRRN2_zEzLSTXSbf-JKvR-DKAzCtxCya7q3K2H3ZHu7EalRVLb3nnQK16Q6RIWJjYDqistq_1AmHJd6odkzjfZrJY1yfvhKHZ9bQLYanVc44OZL-d4BifjZnNoyg-mdJNTbuFAAOiFEmlib27c_Yc8h_ftSMqfaa7a7eJ4xoOG1CxN88vMgdJoHs51nP-xpqpjXHm4a8hDlpF_I8bHxBbZvbn-gSS2xKXOZzM30-VEqyRc1BrpBtfyj=w661-h129-no" alt="Cosmoplitan Logo" width="150" height="30"/></Link></a>
-  <a className="item"><Link to="/ux-climate-change-cosmopolitan/style">style</Link></a>
-  <a className="item"><Link to="/ux-climate-change-cosmopolitan/celeb">celebrities</Link> </a>
-  <a className="item"><Link to="/ux-climate-change-cosmopolitan/beauty">beauty</Link></a>
+  <a className="item"><Link to="/"><img className="logo" src="https://lh3.googleusercontent.com/mNSm_Jilr096Tx6hbpmk12QHY5eVBIXibYCeaivPUTLJ4hlbEcD9iTsd8nhTcI1giRNMzETIHF1P9CvD0PA0VcLEJmnmRDDOtyYNJSvkipoDWMW1aVh3Sj3RFDnHv-wOhpq1BM4RQ539yQIIz47j8xBk8102FF1BACzTkRiQ2n1AwJ7QdVnG8aR0beQ-ZMYLH7RD9jJU7GIyzkZtiXdTcEGpkwPJwDxVLdiVTkBzjY8gG-rOF3vGgobhU1A8y9tV4FiotyfHaMYmTwvRt_BvXV054mnWrDKX0opPXU9Bfr2b-wCq6bBgVFljqtBSjb3wDVbxdpWM7hE4qxVJQdy-97oaqrgOv1LYDpPa4lVxMT4Wnir6UuJB_3xPB_bAyyAej_CnHnXXBN7FCZD-gR2nuRFNedcLEOglgZJXl2mWyUmFPeZ7GzGKjUy2H4iSxLXWK5Xq2Q5daKo-wmAWJuAGY1wu2rcRCwu7n924LvZsgkB4_SUn684GzzqxxPaNlzSoLBj-pif0Y0eW9trtawp6GGihWjwHMYp8rgFu2wt_piJYdonCwSvtsXM-RYpJOcJPq-LAmCT8UUMp0VRiN1rd4PRyZLk0Qp4ypTKAwI-a92aJzu7-XkbtBRHcu4boiAqEVZRvaVwklxaBiua2fW4ihIdzX69fsjGIhWbW8VasnYLsSTIC22-j_Qts-yXVwYhVqa6U2Y4acilWCAUfUa4_wC7wLXCJrT_RJrwWEwtYZBYXbPJu=w991-h167-no" alt="Cosmoplitan Logo" width="150" height="30"/></Link></a>
+  <a className="item"><Link to="/style">style</Link></a>
+  <a className="item"><Link to="/celeb">celebrities</Link> </a>
+  <a className="item"><Link to="/beauty">beauty</Link></a>
   <a className="item">
   <div role="listbox" aria-expanded="false" class="ui item simple dropdown" tabindex="0">
     <div class="text" role="alert" aria-live="polite" aria-atomic="true">facts</div>
@@ -42,7 +42,7 @@ export default function App() {
         aria-selected="false"
         class="item"
       >
-        <Link to="/ux-climate-change-cosmopolitan/co2">CO2 Emission</Link>
+        <Link to="/co2">CO2 Emission</Link>
       </div>
       <div
         style={{pointerEvents:'all'}}
@@ -51,7 +51,7 @@ export default function App() {
         aria-selected="false"
         class="item"
       >
-        <Link to="/ux-climate-change-cosmopolitan/temp">temperature</Link>
+        <Link to="/temp">temperature</Link>
       </div>
       <div
         style={{pointerEvents:'all'}}
@@ -60,7 +60,7 @@ export default function App() {
         aria-selected="false"
         class="item"
       >
-        <Link to="/ux-climate-change-cosmopolitan/glacier">glacier size</Link>
+        <Link to="/glacier">glacier size</Link>
       </div>
       <div
         style={{pointerEvents:'all'}}
@@ -69,7 +69,7 @@ export default function App() {
         aria-selected="false"
         class="item"
       >
-        <Link to="/ux-climate-change-cosmopolitan/sea">sea level</Link>
+        <Link to="/sea">sea level</Link>
       </div>
     </div>
   </div>
@@ -78,31 +78,31 @@ export default function App() {
       <div>
         <Switch>
         {/* IMPORTANT! path= / ALWAYS has to be at the bottom (copy more links on top*/}
-          <Route path="/ux-climate-change-cosmopolitan/article">
+          <Route path="/article">
             <Dummy />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/sea">
+          <Route path="/sea">
             <Sea />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/glacier">
+          <Route path="/glacier">
             <Glacier />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/temp">
+          <Route path="/temp">
             <Temp />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/beauty">
+          <Route path="/beauty">
             <Beauty />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/celeb">
+          <Route path="/celeb">
             <Celebrities />
           </Route>
-        <Route path="/ux-climate-change-cosmopolitan/co2">
+        <Route path="/co2">
             <CO2 />
           </Route>
-          <Route path="/ux-climate-change-cosmopolitan/style">
+          <Route path="/style">
             <Style />
           </Route>
-          <Route path="/(ux-climate-change-cosmopolitan|)">
+          <Route path="/">
             <Cosmopolitan />
           </Route>
         </Switch>

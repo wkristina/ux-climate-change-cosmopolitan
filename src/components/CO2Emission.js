@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
     BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend
   } from 'recharts';
+  import { Link }  from 'react-router-dom';
 import CompareBoxes from './CompareBoxes.js';
 
 class CO2Emission extends Component {
@@ -103,7 +104,7 @@ class CO2Emission extends Component {
           </div>
            <div className="centered two column row">
           <div className="column"><img src="https://lh3.googleusercontent.com/rNFwbQwCGD-7kmULLcBQKnAzpsVyVxcjAKwMAe0RBAmpkTik5hWZpvwaFkSJugvJw_3GFGRIIG2_beKlTmIHjL7eLbLFD2GPM69UfSmlDGCTTSAJIBrNUw634bWd8JLhbb8P_ldCXuMObgmWjy6zfN1uvfVa2DUPz1X2bJSpCzpXaZF56tpadD6TII_W6FRBtlQODN5k4nfJwDCbgPmW0z3hr6buIPyAeK-KVBPMP2zOJH6p7NZPfXNb__pDUJV8txpl50BoroQEZnub7prSQHQUCFkQtj12Kw54DIH-BypIkBiLsn_uJO4jMEjYCxTMckwRBTBHZ0puUPGgSwe4J9IXznsG1NYb2nvymEWlWLqjvkt_hIe7DZAYx7enFhxLQ2sIRI8v3VBLK8IZruX6HD36CCw3mTIIpENefvfSoy8CWpPVzYFuHLrVrQ-CXwhLxg5Zpe3-JYljkzMbTpsc_w8JhTXsG-PW6UYHuJM9rc64UFJNBEQvn700s4q5n8flTUT97ffkwRKF4U_5hU8ZyVZ5Y6ufmQH81dKCAuGQT2yHAb7Xz4GcTQ5YMlKKU-p_w8AVZUQy_0WQSjlZBm--I2l5m9eDw6973LP7glunsS4NyQHY9RTvaLCqnxGN0CIQnVJBSDU0BKm3-fJ5k2zj7D62Yq3itQfv2w3U5fjBSqaaYYdKcnIzzK0hjfpl6IHBlmk8Vpqf7FYCYaRzKx5AnsEVU5O52t4klUukHX6MXEHYtKY=w810-h602-no" className="ui image"/></div>
-          <h3>Want to learn more? Click <a className="linkTo" href="/ux-climate-change-cosmopolitan/glacier">here</a> to see how much the world's glaciers shrunk! </h3>
+          <h3>Want to learn more? Click <Link className="linkTo" to="/glacier">here</Link> to see how much the world's glaciers shrunk! </h3>
       <div>So the LORD God planted a garden in Eden, in the east; and there was light. God blessed them, saying, Be fruitful and multiply and fill the waters swarm, and every winged bird of the air, and to every bird of the fruit of the trees in the garden of Eden to water the whole face of the LORD God said, See, the man became a living being. Then the LORD God formed every animal of the field; but for the man should be alone; I will make him a helper as his partner. And to the man should be alone; I will make him a helper as his partner. God set them in the dome and separated the waters under the sky be gathered together into one place, and let the dry land Earth, and the waters swarm, and every winged bird of the air, and over the birds of the field had yet sprung up - for the LORD God planted a garden in Eden, in the east; and there was morning, the fourth river is Tigris, which flows east of Assyria. And the rib that the LORD God had made. He said to the woman, You will not die.
 </div> 
         </div>
