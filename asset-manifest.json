@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ux-climate-change-cosmopolitan/static/css/main.ee6645ae.chunk.css",
-    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.66aff65c.chunk.js",
-    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.66aff65c.chunk.js.map",
+    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.3b44ab82.chunk.js",
+    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.3b44ab82.chunk.js.map",
     "runtime-main.js": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js",
     "runtime-main.js.map": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js.map",
     "static/css/2.df67cc6c.chunk.css": "/ux-climate-change-cosmopolitan/static/css/2.df67cc6c.chunk.css",
     "static/js/2.deed6c05.chunk.js": "/ux-climate-change-cosmopolitan/static/js/2.deed6c05.chunk.js",
     "static/js/2.deed6c05.chunk.js.map": "/ux-climate-change-cosmopolitan/static/js/2.deed6c05.chunk.js.map",
     "index.html": "/ux-climate-change-cosmopolitan/index.html",
-    "precache-manifest.5c96b5e4b40bb25c77f3aea2afddaece.js": "/ux-climate-change-cosmopolitan/precache-manifest.5c96b5e4b40bb25c77f3aea2afddaece.js",
+    "precache-manifest.6faeb9ed0c0c7d5b8f6bbc847065c3ce.js": "/ux-climate-change-cosmopolitan/precache-manifest.6faeb9ed0c0c7d5b8f6bbc847065c3ce.js",
     "service-worker.js": "/ux-climate-change-cosmopolitan/service-worker.js",
     "static/css/2.df67cc6c.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/2.df67cc6c.chunk.css.map",
     "static/css/main.ee6645ae.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/main.ee6645ae.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.df67cc6c.chunk.css",
     "static/js/2.deed6c05.chunk.js",
     "static/css/main.ee6645ae.chunk.css",
-    "static/js/main.66aff65c.chunk.js"
+    "static/js/main.3b44ab82.chunk.js"
   ]
 }
