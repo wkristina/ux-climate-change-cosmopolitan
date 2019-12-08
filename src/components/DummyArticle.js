@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class DummyArticle extends Component {
     state = {  }
@@ -10,7 +11,7 @@ class DummyArticle extends Component {
                 <p>
                 <a>
                 We are working hard to present you more content. Thanks for your patience! Meanwhile, why don't you check out the facts about 
-                </a> <a className="linkTo" href="/ux-climate-change-cosmopolitan/co2"> CO2 emissions</a>?
+                </a> <Link className="linkTo" to="/co2"> CO2 emissions</Link>?
                 </p>
                 </div>
             </div>
