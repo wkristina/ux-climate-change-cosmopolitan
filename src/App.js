@@ -143,11 +143,11 @@ function Temp(){
 }
 
 function Glacier(){
-  return <DummyArticle/>
+  return <GlacierSize/>
 }
 
 function Sea(){
-  return <DummyArticle/>
+  return <SeaLevel/>
 }
 
 function Dummy(){

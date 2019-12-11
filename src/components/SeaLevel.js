@@ -4,45 +4,94 @@ import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
   } from 'recharts';
 
+
 class SeaLevel extends Component {
     state = { 
-        seaLevelChange: []
+        seaLevelChange: [],
+        tempIndex: 0,
+        tempIndex2: 0,
+        index1: 0,
+        index2: 0,
+        validityCheck: false,
+        indexYear1: 0,
+        indexYear2: 0
      }
 
     async componentDidMount() {
         const url = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0 ";
         const response = await fetch(url);
         const data = await response.json();
-
+        let filtered =[];
+    for (let i = 0; i < data.length; i++){
+      filtered.push(data[i].Time);
+      let date = new Date(filtered[i]);
+      data[i].Time = date.getFullYear();  
+    }
         this.setState({
             seaLevelChange: data
         })
       }
 
+      handleInputFirst  = Time => {
+        let index = this.state.seaLevelChange.findIndex(
+          sea => sea.Time === parseInt(Time)
+      );
+     
+      this.setState({
+        tempIndex: index,
+        indexYear1: Time})
+    }
+
+      handleInputSecond  = Time => {
+        let index2 = this.state.seaLevelChange.findIndex(
+          sea => sea.Time === parseInt(Time)
+      );
+     
+      this.setState({
+        tempIndex2: index2,
+        indexYear2: Time})
+    }
+
+    compare = () =>{
+        if (this.state.tempIndex !== -1 && this.state.tempIndex2 !== -1) 
+        {
+          this.setState({validityCheck: true});
+          this.setState({index1: this.state.tempIndex});
+          this.setState({index2: this.state.tempIndex2});
+        } else {
+          alert("Year could not be found. Please enter a valid year between 1880 and 2013.");
+        }
+      }
+
     render() { 
-        const data = [
-            {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
-            {name: 'Page B', uv: 3000, pv: 1398, amt: 2210},
-            {name: 'Page C', uv: 2000, pv: 9800, amt: 2290},
-            {name: 'Page D', uv: 2780, pv: 3908, amt: 2000},
-            {name: 'Page E', uv: 1890, pv: 4800, amt: 2181},
-            {name: 'Page F', uv: 2390, pv: 3800, amt: 2500},
-            {name: 'Page G', uv: 3490, pv: 4300, amt: 2100},
-      ];
+        
+        let box;
+        if (this.state.validityCheck === true){
+            box =  <div class="ui padded segment">
+            <div class="ui top right attached label">Comparison</div>
+        {/* CHANGE HERE, SO THAT BOX TEXT WON'T BE MESSED UP*/}
+        <p>{this.state.indexYear1}: {this.state.seaLevelChange[this.state.index1].GMSL}</p>
+        <p>{this.state.indexYear2}: {this.state.seaLevelChange[this.state.index2].GMSL}</p>
+          </div>
+        }
         return ( 
             <div>
-                <h1>test sea</h1>
-                <LineChart width={600} height={300} data={data}
+                <h1> sea</h1>
+                <LineChart width={600} height={300} data={this.state.seaLevelChange}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
-       <XAxis dataKey="name"/>
+       <XAxis  dataKey="Time"/>
        <YAxis/>
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
-       <Legend />
-       <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{r: 8}}/>
-       <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+       <Line type="monotone" dataKey="GMSL" stroke="#8884d8" activeDot={{r: 8}} dot={false}/>
       </LineChart>
-                <CompareBoxes/>
+      <CompareBoxes
+                handleInputFirst={this.handleInputFirst}
+                handleInputSecond={this.handleInputSecond}
+                compare={this.compare}
+                year1={this.state.indexYear1}
+                year2={this.state.indexYear2}/>
+      {box}
             </div>
          );
     }
