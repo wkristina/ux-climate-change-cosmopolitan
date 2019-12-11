@@ -14,7 +14,9 @@ class SeaLevel extends Component {
         index2: 0,
         validityCheck: false,
         indexYear1: 0,
-        indexYear2: 0
+        indexYear2: 0,
+        tempIndexYear1: 0,
+        tempIndexYear2: 0
      }
 
     async componentDidMount() {
@@ -39,7 +41,7 @@ class SeaLevel extends Component {
      
       this.setState({
         tempIndex: index,
-        indexYear1: Time})
+        tempIndexYear1: Time})
     }
 
       handleInputSecond  = Time => {
@@ -49,7 +51,7 @@ class SeaLevel extends Component {
      
       this.setState({
         tempIndex2: index2,
-        indexYear2: Time})
+        tempIndexYear2: Time})
     }
 
     compare = () =>{
@@ -58,6 +60,8 @@ class SeaLevel extends Component {
           this.setState({validityCheck: true});
           this.setState({index1: this.state.tempIndex});
           this.setState({index2: this.state.tempIndex2});
+          this.setState({indexYear1: this.state.tempIndexYear1});
+          this.setState({indexYear2: this.state.tempIndexYear2});
         } else {
           alert("Year could not be found. Please enter a valid year between 1880 and 2013.");
         }
@@ -69,7 +73,6 @@ class SeaLevel extends Component {
         if (this.state.validityCheck === true){
             box =  <div class="ui padded segment">
             <div class="ui top right attached label">Comparison</div>
-        {/* CHANGE HERE, SO THAT BOX TEXT WON'T BE MESSED UP*/}
         <p>{this.state.indexYear1}: {this.state.seaLevelChange[this.state.index1].GMSL}</p>
         <p>{this.state.indexYear2}: {this.state.seaLevelChange[this.state.index2].GMSL}</p>
           </div>
@@ -89,8 +92,8 @@ class SeaLevel extends Component {
                 handleInputFirst={this.handleInputFirst}
                 handleInputSecond={this.handleInputSecond}
                 compare={this.compare}
-                year1={this.state.indexYear1}
-                year2={this.state.indexYear2}/>
+                year1={this.state.tempIndexYear1}
+                year2={this.state.tempIndexYear2}/>
       {box}
             </div>
          );
