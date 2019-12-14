@@ -5,22 +5,10 @@ class Header extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{backgroundColor:"#E0F3F7", height:'300px'}}>
-                    <div id="headerGrid"className="ui two column grid">
-                    <div id= "headerRow"className="row">
-                    <div id="headerText"className="column">
-                    <h2 >
-                    <span style={{backgroundColor:"white", color: "#286A8C"}}>Sustainable is the new trend</span>
-                    </h2>
-                    <h1>
-                    <span style={{backgroundColor:"white", color: "#286A8C"}}>How do you affect the climate?</span>
-                    </h1>
-                    </div>
-                    <div className="column">
-                 <img className="earth" src="https://lh3.googleusercontent.com/7TSc6pwRO-AYjlFSX62X2O5VTyOT_R8pnWORwtbFjpIWBk17HHu6BB5J2EKLiq2Z5W8jnFZMSn1F_YOmJcmyN0DHsxfs-LMwpRlqnXVphl0m9hGmbZti3Srw6UwuP_pgDguW80xq1gql-7e6ggRG9MPdEmsRpOGfKXwYKVeT21dL9cybVmvieJhqZ4hB1t0JUhJ0eWNRHaRbyWx8j3Ey7PeN4uo6rrli6dNmku86-dJBV_YG_G_sjklsdruuVhCAD-IPol5pMXEIvra-kcNnBH6deyRozd1UJoBS21UxSGSjGQqyJJzoNYJy-WiZbHwKqblN-E9Xl4BuoHwzRUxAkEouB-2eF-EAI7Ll01ynJMJQ44xYeIiBM7MpjZ8wgDpbmPfiJV33Y6dXoPfeOOCkUnHuTkIhfxOTMoGkD_sWePcuCf_RJVClAFwbWqg1sj7Q4z27t5UzUEdD4fl6tvd6R_5wiTf9l1l_1RdnK5SQoo937qpCkZ6VxR_hyKmlg3SmJmB1Ygan8Wxhv4zHA8DhpCQ44NLcY7dECI87u-dNPD_LARzgjc1hUi1_i_ckVfKNf3hf4qJQKc_wkuh9LU4ODWk2rzePjKVDlZJwaGRnuAYOtIrpn9YhZIGN3JiKzz1ZotSxLsgM02N54GcRqZmTILfEFd_Q62PUqYrpkjTQwJlF0TARe_eHu0LcMyGQ8ek-dcYTOi8gBYEukqWlzqpDsqQ5VjReRlwYS_7DrAwa3L41gAtB=s512-no" alt="Earth" width="150" height="150"/>
-                    </div>
-                    </div>
-                    </div>
+            <div >
+       
+    <div class="sixteen wide column"><img src="https://lh3.googleusercontent.com/ShB0BQKJTbOCEb26-bJ65ZtU-IGpZHXUf-PCoU0y_wphJ-xrZ5YLpB9qJYNKiZhlylaErcJVqz2M7gPmiebcHJLfAHgREudKMinwpvtT5rxx5CL_OzzpcOeY7_qZHtb1m188u84ccoLx6Ks6LI8ZvGAnRzGBdq4fFGlKvu4_Yf50C3JdQnenx3fsEakMT6T5wiu_WH0fZQgt7wK9iEtZU8K4kHstjJ7tRTGXD6LXaKrJbMxrOj-gakVLsqeIBhTPcEOS6URv8wKWJtj7l2puGMmBMbLU2F42ilv-zFP9cFc2RF_z78s3cCh5W04KTjxtjx2NYyl6Y9hrW9gh9kOacL27G_phtnSxsMGfkrhNpHXYr-MLrzWKjapWg3_9l7DkR6N3SLCFT4PGFjcRxVL2eZ6bNywH8HA3HZE4lI3mIlnsrFsLEoCo3YdLKKnKdzrOvv4fn5ZaSldyGr0zjZPx4xmJRu5rlP9z2qvmhZE3lXodX9m3dDx3eJwEnZhm31FOVKTnQz_h-3Ac4SYPOSfaRz3-_X1UpQwjP2NZdMxTAilyu8TjeGiB5apAV3JR5I-eqWVVEhXvn2KkOfEpSKRYwk1kf-q1VQTZq5teMnFljxfIW-aJWIrwguUD5wD6dKLtTgPDZZmfSF5JjW2-CBrLTQG5Ewlbpue_PI82CspOeSSx9A8Kn8dFlcCLUxB4QI8G_G9sw9S8KUFCerk5EDWe7KgPtJaTN-YdaErJnkGjxrXX_ADa=w1440-h195-no" className="ui image" width="1525"/></div>
+  
             </div>
          );
     }
