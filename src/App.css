@@ -37,13 +37,11 @@ a:hover{
   color: fuchsia;
 }
 
-#bigArticle{
-  margin-top: 15px;
+#homepage{
+  align-content: center;
+  margin-left: 100px;
 }
 
-#headerBigArticle{
-  background-color: dodgerblue;
-}
 
 .loadingContainer{
   text-align: center
@@ -53,16 +51,32 @@ a:hover{
   display: inline-block
 }
 
-#inputYearOne{
-  background-color: "#8884d8" 
-       
-}
-
-#inputYearTwo{
-  background-color: "#82ca9d"
-}
-
 .item{
   display: inline-block;
     
+}
+
+
+.oneTextBox{
+  background-color: fuchsia;
+  text-align: center;
+  width: 500px;
+  border-right: 30px;
+}
+
+.description{
+  text-align: center;
+}
+
+.graphBox{
+  background-color: #FEDDD6
+}
+
+#infoBox{
+  margin-left: 150px;
+}
+
+.ui.padded.segment{
+  height: 250px;
+  background-color: #FEDDD6;
 }
