@@ -65,34 +65,38 @@ class GlacierSize extends Component {
     render() { 
         let box;
         if (this.state.validityCheck === true){
-            box =  <div >
+            box =  <div style={{backgroundColor:"#CAE3E8"}}>
         <p>{this.state.indexYear1}: <span style={{color: "#ff0080"}}>{this.state.glacierChange[this.state.index1]["Mean cumulative mass balance"]}</span> | <span style={{color: "#ff6600"}}>{this.state.glacierChange[this.state.index1]["Number of observations"]}</span></p>
         <p>{this.state.indexYear2}: <span style={{color: "#ff0080"}}>{this.state.glacierChange[this.state.index2]["Mean cumulative mass balance"]}</span> | <span style={{color: "#ff6600"}}>{this.state.glacierChange[this.state.index2]["Number of observations"]}</span></p>
           </div>}
         return ( 
-            <div>
-              <h1>nature</h1>
+            <div id="wrapper">
             <div class="ui centered three column grid">
   <div class="top aligned row">
-    <div class="eight wide column"><img src="https://lh3.googleusercontent.com/lsTmv5SrGAl6TNB-QNzfd9IP3J3cBRZWxjGldIcZCkEXAeWQLu-Mpb0Wd0ShckLvv5OVVP3PEQma9gvbqnJkhAGJX9pg94NH0uHcmreLQpnVePyiJpvF4HhSktwjd2L7Pg_coVOhJfdoaGT6cpHRBQRx1weuaG3wh4CErRBi33YTC_2daai9mS6xhdv5qdIXWt_K_J5JGhxA9lhSEbO-lNonzRjPgiQ6qfnwtKbmc_mterqZ4j0xltNgfNxaJ5r6ktwkOIo9LmTH-LSNtwEk1o8CX_D4K6Elm9ZF1r6ToozPhatqmsN9ucm5yIY2Wz6n8t2ShAqhCS0EgaWBr9oUP-Tfbbd-IPvAyISNnulzBs1k_f7cNZF5-OieM9f76rhSnAJHmKP1ZNzuHd_7pP6-5-19wwlgjY7gVSxW2KYLKbk0fqB3OJXWaXSRqUdWFRtOM666E1cLsC1hzXCuu2sXU7Qs3akKA7qWuO0YV2YRikfhl6ojDTmJ2RZRIOTlYdHXTF4Cw3JnxljuRbJmLf1VER9KPhrDOVDGBfSLaF7E-sDxycXZQWRJEeR46JqrII4w0nBjYSPbubSKmAVbrq53FLEb8b5SCfxUh1Z0F5kPJr6e2_5tXxQmz_5btA6NYd5aFpDmiO2se98wWwPFYBrtspLMM8Tp4NRhD9V-6KyisNw-d859D6PeGJ1Hoy__ftIT7XcSbcEPUmAoZ54eEWUp_qGAdKf6hQPyDp0SI68lwM9RQtxx=w1000-h372-no" className="ui image"/></div>
+    <img src="https://lh3.googleusercontent.com/RsqeFh3GkisLTySL4yXu2ai45wn0p32oWhSLIkcZdiTBb7me7W1z0v1ky547yIfDbTbbOreKsh07hcc_JWstvthbLEn4xqn2iNGw7vQjsdV3CIzFLlbKe0VcVNvpYJm4ZBXrxSI3W4tzKNczUsOrKOP5ZGQ23Oh4g82t48SFG7LzRVTzt5xEIvLBg6Niqy0_sSisZwjUXOJlKFoZ0GFJsjH9f-ZJCWDQ7NcDa4D-z9hn1Y38IBWApgYXUNmexStn4sIF8Et75P-2nNHvjK8bTFdDExHV2TtmEnIUJpM93Sf5KZDRtIemYQznJkyKU0sVJR0SHcy9tJyCfnbbiWTgjJKrMB_lq3loyCdmra3olAEeRl0mgUCdTbEQLkK-wsZ64akNKvvU3CsaDQoNJbjTmD4PTE5ChtQNCydJIpeTBmtCOyvlDBrZtOGxTbDV7X4Y16DSrqPLPewXjHrV02alphQXLwWCp83bdw9PWmdV04wlk2_6sjq6kRL3husJnPOHGfWMkKZZUXA_2sVwVeES_FzZbq1F1wIBHSg6ge7ZnVmm_U-x20CNjsrOCIQvSV16Og3wKBNwEQwkN4vXTONKykDqGE1RiSdQ2mDe1q53McOfTsAs1JFs1ohGcgI7dnlxk_ioZBoUNnYKm5Dx8oxBZgCTBdW3nQsuWgow24rqAHw-6bMttZJT7RpOJCPtzhmPrRB0JJZPebzxRp2uMTCywnbZC_t8vi8Lf3dwUNXenCG0XIRc=w1348-h525-no" className="ui image" width="100%"/>
   </div>
-  <div class="middle aligned row">
-    <div className="column"> <Link to="/celeb"> <img src="https://lh3.googleusercontent.com/JLoWcqyk9foVuKeQj9cR-Yun_jvOlg93wDqk8jDuymqK83O4S0zNRjGyn09HjGxDxATRAbTrsnoKf2eqi7y-9hNba40FQ76kHcV5ldizXFEtCCajxFOphvIJXuS1VIMe0iQAJmmRjE62D72ruUha1RmM7ZG-9o0t5MYdI7ACbyM_dUmf53iQzvYYUMxcmatpNiBixSRodpFzTEsy13RxlOOHhRu4aa_Dw979oog3H1RSIJyONLsnxnuhzY-qz0myMR-aeqnuiL4oqlaFNgd1kEHe-mvqai7vGXFpWd2auX8YWeh_MnfvaqVVbBbZBiOAf-pZhU8czv_iYfpObBXSpPdzq4TytcF2DcMELhM5KWueWDiE0CaXvlYNb1qbNxNa-YSOU4sGTqHrSJRPpfrqfVj0ylVCgD7asTFDKPTeTA0KRXD7pvbWrnLzoMMo5hOTgGkqAo2YK8XD50ENivDlfPxVUU363GeJPHuuzgKnhqlYsF8S5buze2e45GJsPcYqV9lzq6oJZvcfOsyXjhYSiTsHF9z1h1eOCaQDXRCYq1PCkjQQknQ7YXe4jgxMtNnl3I9fg5nlDZXNg1IydmigDMW5l5Jmfayb7mU9bLlYswxdLw9Hcxn3-szI9EwvlSTYaH2H3fdf08Bj7WkXtoSHd0_61Ce-VijxTguli7WgpqGNu7wf-0QNAwSJabYO8t5KsQTcm5pq6-6L-3lw35O0rXGJFImiZDcaycQYXXCcV4oOHDC4=w892-h903-no" class="ui medium circular image" /> </Link></div>
-    <div class="column"><img src="https://lh3.googleusercontent.com/8JFGDY-YQalhvhIvpn7c08m0pYYA4nNe4Ul-kys_dP70wpbgtrOFWc5tlycLY_oXpZ_xGD8gwxnAaP3lgZwN39-9lMeNUauS43jA90a67OjyYBLN62IQAYYZRtZAVFSiQB1iUhZQT44txhQItrmcd8ob0VZ7SJM96KcRLMJeiIGS5QiwY0z8YUTjHOH3g4lWy0u2c3PkmdPwPseVq4J64LALWppUlsPvdS-ZEwGTJiKd259ZP_SqUk60vwRpQtKN5oSdU4H2AawutgjOQDCXTh7fzK55ScLeAaPtJav3dHmWAA70OEETV3lM9WuXKUTi5U0yedxphwb0XW_5hE4eG7cKRRWv2lEqsQcbEZ6Kr42lgNX8ZJsZYFm6VK4GQANRDbdWW6hv1SYMhLrXP2LopmDNS_r4JBQtXE77AMSp4qffM3Flo3AA0SE4EMnxntcJhgW9QdiF3QvOEKFNY_NH3jPozeq5XZ74d8FuOsDBacrQmdsm48m3h4MJCUaramL7rsz84K_o3_sDjemUm69ALud3SvZsIEOjJ4qBoSrzhJbjGRkxBhmMtc9QWDM6axRDkLfJyaWO7c7Depw97Q1VbXgpLJJ_sKUUXwCbFSk20NFgKp1dfoAm2dzMTbIAQYVM6ODU8S6cDzNJP_n2N03YFvdGAF7FIBpnIiVn8ELK3L7b_rx0tVhTj7uhr6BsnWj8QFcOHzL1N7C3vg-iQ7uTo52lhTGURSNqZjFsIenqlz8I-wJS=w1200-h800-no" className="ui image"/></div>
-   <div className="column"></div> 
+  <div class="middle aligned row" >
+    <div class="ui inverted blue segment" >
+      <h2 class="ui header">
+          Do we even have to say anything? Look at this cutie being sad! <br/>
+          The reason for his sadness is the ongoing destruction of his habitat. <br/>
+          Check out below how severe it really is!
+      </h2>
+    </div>
   </div>
-  <div class="middle aligned row">
-  <div class="column"></div>
-    <div class="column"><div className="oneTextBox" >Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the blowers and the chassis of a gutted game console. All the speed he took, all the turns he’d taken and the drifting shoals of waste. Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the blowers and the dripping chassis of a broken mirror bent and elongated as they fell. Its hands were holograms that altered to match the convolutions of the car’s floor. They floated in the tunnel’s ceiling. Case felt the edge of the room where Case waited. Images formed and reformed: a flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the coffin for Armitage’s call. The Sprawl was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. Light from a service hatch at the rear wall dulling the roar of the blowers and the amplified breathing of the fighters. Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the missionaries, the train reached Case’s station.
-</div></div>
-    <div class="column"><Link to="/celeb"> <img src="https://lh3.googleusercontent.com/JLoWcqyk9foVuKeQj9cR-Yun_jvOlg93wDqk8jDuymqK83O4S0zNRjGyn09HjGxDxATRAbTrsnoKf2eqi7y-9hNba40FQ76kHcV5ldizXFEtCCajxFOphvIJXuS1VIMe0iQAJmmRjE62D72ruUha1RmM7ZG-9o0t5MYdI7ACbyM_dUmf53iQzvYYUMxcmatpNiBixSRodpFzTEsy13RxlOOHhRu4aa_Dw979oog3H1RSIJyONLsnxnuhzY-qz0myMR-aeqnuiL4oqlaFNgd1kEHe-mvqai7vGXFpWd2auX8YWeh_MnfvaqVVbBbZBiOAf-pZhU8czv_iYfpObBXSpPdzq4TytcF2DcMELhM5KWueWDiE0CaXvlYNb1qbNxNa-YSOU4sGTqHrSJRPpfrqfVj0ylVCgD7asTFDKPTeTA0KRXD7pvbWrnLzoMMo5hOTgGkqAo2YK8XD50ENivDlfPxVUU363GeJPHuuzgKnhqlYsF8S5buze2e45GJsPcYqV9lzq6oJZvcfOsyXjhYSiTsHF9z1h1eOCaQDXRCYq1PCkjQQknQ7YXe4jgxMtNnl3I9fg5nlDZXNg1IydmigDMW5l5Jmfayb7mU9bLlYswxdLw9Hcxn3-szI9EwvlSTYaH2H3fdf08Bj7WkXtoSHd0_61Ce-VijxTguli7WgpqGNu7wf-0QNAwSJabYO8t5KsQTcm5pq6-6L-3lw35O0rXGJFImiZDcaycQYXXCcV4oOHDC4=w892-h903-no" class="ui medium circular image" /></Link></div>
-  </div>
-  <div class="middle aligned row"> 
-  
-  <div class="column">
-    <div className="graphBox" width={600}>
-    <LineChart width={600} height={300} data={this.state.glacierChange}
-margin={{top: 5, right: 5, left: 5, bottom: 5}} className="graphBox">
+  <div class="middle aligned row" style={{backgroundColor:"#CAE3E8"}}> 
+  <div className="two wide column"></div>
+  <div class="ten wide column" style={{textAlign: "center"}}>
+    <div class="ui blue segment" style={{fontWeight:"bold"}}>
+    Ice is melting due to rising temperature. That means that the home of thousands of living beings are endangered!
+    Do you want to see how much really changed in the last century?
+    <p>Use the compare boxes below to see the drastic differences between two different years from 1945-2014!</p>
+    <span style={{color: "#ff0080"}}>Average mass of measured glacier</span> & <span style={{color: "#ff6600"}}>Number of glaciers observed</span>
+    {box}
+    </div>
+    <div style={{backgroundColor:"#CAE3E8", paddingRight: "100px"}}>
+    <LineChart width={800} height={400} data={this.state.glacierChange}
+margin={{top: 5, right: 20, left: 30, bottom: 5}} >
 <XAxis dataKey="Year"/>
 <YAxis />
 <CartesianGrid strokeDasharray="3 3"/>
@@ -101,33 +105,38 @@ margin={{top: 5, right: 5, left: 5, bottom: 5}} className="graphBox">
 <Line type="monotone" dataKey="Number of observations" stroke="#ff6600" dot={false} />
 </LineChart>
       </div>
+     
   </div>
-  <div className=" three wide column" id="infoBox">
-    <div class="ui padded segment">
-    <div class="ui top right attached label">Compare here!</div>
-    <p>Use the compare boxes below to see the drastic differences between two different years (1945-2014!)</p>
-    {box}
-   </div>
-   </div>
+  <div className="two wide column"></div>
   </div>
-  <div class="middle aligned row"> 
+  <div class="middle aligned row" style={{backgroundColor:"#CAE3E8"}}> 
   <div class="column"></div>
   <div class="column">
-      <p className="description"><span style={{color: "#ff0080"}}>Average mass of measured glacier</span> & <span style={{color: "#ff6600"}}>Number of glaciers observed</span></p>
-      <br />
   <CompareBoxes
                 handleInputFirst={this.handleInputFirst}
                 handleInputSecond={this.handleInputSecond}
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
                 year2={this.state.tempIndexYear2}/>
+                <br/>
+                <div className="ui divider"></div>
+  <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/celeb" style={{color: "#ff0080"}}>C02 emissions</Link>!</p>
   </div>
   <div class="column"></div>
 </div>
+<div class="middle aligned row" >
+    <div class="ui inverted blue segment" >
+      <h2 class="ui header">
+          This cannot continue! <br/>
+          We need to change our behavior drastically,
+          in order to not have more sad babies like these:
+      </h2>
+    </div>
+  </div>
 <div class="bottom aligned row"> 
-<div class="column"></div>
-<div class="column"><img src="https://lh3.googleusercontent.com/S6_PwaL1Y-SjMKlvd8mfYJNpjP7K0JjiXdVTlMbHbyxTXEGL7a9TIX1476sCfsD48cK-HKfcO3uMIgeSacNPrDBs9djG76eq2V_0_VCyQOlrb4rtQrvbQa8keAyFjjZsQWjdjLknE7JHPJ0s7BvM1Swe9eHzHvBRDSeleOFyz4Lj3Lad3A9DTCbXRIW52haY93sFRbB3InyEMqmYuodedTY3XqzY-ylqVQj515UkFTYPVNfMCvGGnht00iig-zjixVlZI5R65TqMan1ENLx-tTvoaBwwuoiQKzs_EIRjs5hL5V-3KUWkeqj9_Gfvx4MOu8XFGv9OA6qk6H1Y-ZbEsvjSodCLxk27wqGzx_B631InjC7Cb0yrEdJ34vdv28K1oUH1t48uVUKmr8z3LzIQf6BKTj-YPFu9rLRpHzlIhFB-F5ayBHoHeGi33i-wmSZczkdPCRhvkJivjEBI8UUoSqN_zKmhDmZH7ayO783ENmlDy_CuK02jjGTUNV7OM4uuu98DY2lgFxRgTWY5_tcMrwVO-niJZIby4MzJvtXpPF4WiZoN0AfEBFHjxY56yghVI4rzeaQ3IypX5sUlOCtJHCrU28KlBkGKhkRVox-A91F_9MqskQTyS_fGP2hU0YFdqDI6eNyoSFn4ooLqG4wXhNPAulqrc6jb4dBqwe6X2u-Bjyas_a7qDcRXylIZqcLfcRoDv5K6hWlU9MnoEcFVZkPBs23Fme2Qumhbnwx69AFLFxLQ=w1200-h801-no" class="ui image" /></div>
-<div class="column"></div>
+<div class="column"><img src="https://lh3.googleusercontent.com/LU0Ksa8QVb2_HbdXBsKiFl8ljHcmENMwCaUMniNA7RwfFeKjd2bwo89m41kL2xg6iXoZyOaOR8HsLRFQIbDiuZUOOVH5iPXHUKHkxEJQbJREpKGL56F76v1yoBpW4V7IsjK4x1Iqp43Nr31XK5PmEbEgg0IlNWphEaB9ND52gJxMo3iPnP_Kpks8HYPuBclz1nMRTqTmVMUzHTwdaJopol1VI-LPbs7noikcbtmtGg8wH3l0lh2Tf8MXHq6BgQzKZyHWfDpZYAtn85tn2DxBeaMEfk_DFA8jYw_GnAvBCA7MpBeXG6C53D81BjdvuGZ3bjvRAMje2lBxP3bm1yCMhOtdf0aMLcGKmgzEwFyJMNJrgjy1cKYpZWteYHxnmKbiWEufxESuioFxTtwn6bepbp56DAweEZX9yJlI2KHtwlHhlMTEgHG8O11XmVXCw6kEdn3-EcqqlRbRF_mo_mBDDt1IEgh1RvC3yX2qgfxVQeQl5jdZPAlXCYOMvNNw1tKMHdW5enjyMysy4Rfrkrzh5moRwIDFHP6aLjnI7BUrWjHFf39LtavHud5ZqvK6ImPyVOU9khIrIqJaEHuqewn3ObIfoRfVXMYl2FTRU8tsH0lxS1UO6zu3lzrUdwDrp7JW9qNkDB4uxiSWv_Zi2POmSMtWV4U4lvlsS6w39sMfW8SkK8VIKhvfsRI1brLnNqVyA_okbtfkv2QXjNsOIRu21_gG1sg6GCsfKoaLApKygLVPTXAX=w720-h405-no" className="ui image"/></div>
+<div class="column"><img src="https://lh3.googleusercontent.com/tu5OpR7Ta-E0XvHAVXrXQxTtPPND6Pni4JLY9l8r9zPDv45K84iSbm2b7BmNvzHOYlMbVHYV4MnkHn2Tr68krFxGSXxoqUfOxxQZg5PS528jyB2Ml7V4e6oTcFZ3WTaJ9uqz3wmwKOpj3kB0m4q5-NaaRl9loGVz4EMgGH5Pk159U-NpJJZ7RmRBLZ21kWdUPb5isgWCNSzAUB2f4UEr4UdkZa9kB1k232gohm6AjTKO76FgkifeDXy_WGt-KIg0mjzScmGwhUpU4bfpS3Vo-QZgDS1FcVAIJeHX5B6b-abFWbmgYIvre6j_7dajYEoCBXavcRs_F82n3_KGj_8HZKHuLjpH6ZiTiSiJGJw3oedEzgtoXIjXjr0RyI-2mFXR2YjIWdHdieTj_Iv0Sjm4T_EGI0PMrBGUKl6iqfv7olIS3dIyGcp67nLVOabQii704OsyRqiEPqwpjoUfAl-kFcNpIedsrH59psh69MxtPA_KABYQ0AcGjENBNYSkuP6M36nyAEk-3s0bSzEyybJtdeiJCQREh4rCI3o7nyPHlx9TY4figcq96zXug_ZP-HKBeEN6CDKsiw0dd3NnT7ptsgIifxScgGVBC11y9nZEyLWfLe1l2tk1XPrFjVUjyoh5TwvbbkUofgauBpSJ7vwa0V1mODUv2uKh2s9aIr8GNrxLsKiwqLDnRyBI0fIKpK7fAnln5neOw9L3N51nQ-adlBr2Bc7VUwV7ytKlUwaANnSUdV2r=w768-h576-no" className="ui image"/></div>
+<div class="column"><img src="https://lh3.googleusercontent.com/Mvgwcv_n-xSdcoRhd4W9_gGMgmtD7-CO1x3osTFNYsaTecEmFTGqirEE32A8Y5_rwzeOSq4ovanF6FeHTU9yvRXWXJwtyZIRVFDEkcOOrYYzPmHOTsQkAXObOmNjKOlZbJOHG2x99bpROLzjMZduo8EyuL6X4sKiBjrA-LkLl1peIbbMqJGE89H87u4VW4lNDn0MgjG0szAPhjqXVytgIb1bUyUk66ctr8pCjte5G-BSeKxAL3tmeGkCOmcF7gNqlXQQWxdnyhpa0jpXxwx1DA2jaFesT6JC-WZ2_D1bNXTjgNqV-_5foaSm9AW5s8XXJFJCIwEoJk3MlPpLKfk0D6N0D7p0Hhykw1_rMSlKJUH-944ivRQyNeSerHxYvQm3Fuhgb7SNoPlHjTMh78jIhNRkJ0bZmgJQSjhnouYHKU6w7xn9k1QCbKex6JJeeps9qamNNjuSuFzJ65cDi498VJFefb-anovnNBjpd03BITwklCrN_YIZKgKLiQS9zpT4swAKBDbp5_8ClgQGLAiAmZ3sKju4gVJXwG6QRd4vwVW7H-ZqtCdUXkDOzYZVTpRXsOPaQKvL26Qt9hw7JmdEb8M1f_jZ2zfQFKKn0RGdzVZsL_I9CSdxhmm3ymOJkSA1NgfM_1VO28-05Fd7symieIoj019ljOWoMUM1NXUk6AegZWye3VBSJEC5PYb9vXvoEL1yAaBVp7OVjaN1uVigqvLPyMQqExjYFxhwizKPJ9xfiio=w907-h510-no" className="ui image"/></div>
 </div>
 </div>
         

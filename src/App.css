@@ -22,7 +22,11 @@
 }
 
 .item{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif
 }
 
 a{
@@ -31,6 +35,11 @@ a{
 
 a:hover{
   color: black;
+}
+
+h3, h1, p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .linkTo{
@@ -42,6 +51,12 @@ a:hover{
   margin-left: 100px;
 }
 
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  min-width: 500px;
+}
 
 .loadingContainer{
   text-align: center
@@ -78,6 +93,7 @@ a:hover{
 .graphBox{
   background-color: #FEDDD6;
   padding-right: 100px;
+  text-align: center;
 }
 
 #infoBox{
@@ -92,30 +108,34 @@ a:hover{
 #leftTopLinkColomn{
   padding-top: 100px;
   padding-left: 200px;
+  text-align: center;
 }
 
 #leftBottomLinkColomn{
   padding-bottom: 100px;
   padding-left: 200px;
+  text-align: center;
 }
 
 #rightTopLinkColomn{
 padding-top: 100px;
 padding-right: 200px;
+text-align: center;
 }
 
 #rightBottomLinkColomn{
   padding-bottom: 100px;
   padding-right: 200px;
+  text-align: center;
   }
 
 #question{
 position:absolute;
 left:0;
 right:0;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: large;
-height: 200px;
+height: 350px;
 text-align: center;
 display:block;
  margin:auto;
@@ -134,22 +154,23 @@ display:block;
 .title{
 color: #EF4206;
 font-size: 20px;
-font-family: Georgia, 'Times New Roman', Times, serif
+font-family: Arial, Helvetica, sans-serif
 }
 
 .subtitle{
   color: #EF4206;
   font-size: 18px;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 
 .bigQuote{
-  color: #B5D3CE;
+  color: #59ADAF;
   font-size: 18px;
 }
 
 .explanation{
-  color: #B5D3CE;
-  font-size: 16px;
+  color: #59ADAF;
+  font-size: 15px;
 }
 

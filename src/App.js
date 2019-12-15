@@ -33,7 +33,7 @@ export default function App() {
             <DummyArticle />
           </Route>
           <Route path="/beauty">
-            <Temperature />
+            <DummyArticle />
           </Route>
           <Route path="/nature">
             <GlacierSize/>

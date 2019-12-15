@@ -73,11 +73,11 @@ class CO2Emission extends Component {
 
 
         return (
-         <div >
+         <div id="wrapper">
        <div class="ui centered three column grid">
        <div class="top aligned row">
-    <div class="sixteen wide column"><img src="https://lh3.googleusercontent.com/_jY5dm0X61txxKPi4JYwIS4oLMewnqdMahSBbnBTC7xJluzRXJ2Ojuhq5gzTPb5JFEaKT3xYEF6KDRXixEkO5r9T0VKb8FSiewY4rIlwyHdvn7mACfTcn7VkRKyGz19h36hnCfAgl2Dg_lljo4UC88j4Im8F9lK6l75P8_xsoNDTzxl23YvbONqcTLfLdhMirQwvkpfdxBZDveRBTwwRapbFuMevVQQ_Jsufl-OXEhJilik0gvWJMmNyHp13oEU4s6VsIAMCQq08jblEXFGE01QBEx3Qx9_VeRku5E5Caw4T-PVaVGqBa4K1TdlfGGJgFozl_pTOFfG5XMkhDQjzY8JpJwSj9rKyTptPcOCjhM4Ml6FoQR3WULf38B-9VZSLyp2raU9DwGfjkkujN0Cu3P5bU3dqdEwJaHiDS5-jmFafGLG3GXAlaIs_wiMDpuwhqEcNFYfVfX0lOQOw9uD9tEGX7gOR5q7LC21N11ssyWusYJ3kRX-knB-QRuHAt06nijeJaaIoGiLbQfgrvGL5SSSEoJLW_ioyOpBWZ3J-JxFvMdjYhvqoVdqLwGZosq0T3XbkRsrvyp83DdyDplggNNyC67zRrIQ7sTR_Xu8PkN9oI6ji5xEZSghvZo9PgiEXg4jAEQPMzYlrDNOui5tMfwZ6sj6C98T4YtEEgC1kMb0z-75S8aA36aDcyJczGhYik90tqoRHU5s9n6KVH28wOkhzaXgW1Gi3t7JBLfFzFr56Y3cJ=w1920-h396-no" className="ui image"/></div>
-  </div>
+    <img src="https://lh3.googleusercontent.com/_jY5dm0X61txxKPi4JYwIS4oLMewnqdMahSBbnBTC7xJluzRXJ2Ojuhq5gzTPb5JFEaKT3xYEF6KDRXixEkO5r9T0VKb8FSiewY4rIlwyHdvn7mACfTcn7VkRKyGz19h36hnCfAgl2Dg_lljo4UC88j4Im8F9lK6l75P8_xsoNDTzxl23YvbONqcTLfLdhMirQwvkpfdxBZDveRBTwwRapbFuMevVQQ_Jsufl-OXEhJilik0gvWJMmNyHp13oEU4s6VsIAMCQq08jblEXFGE01QBEx3Qx9_VeRku5E5Caw4T-PVaVGqBa4K1TdlfGGJgFozl_pTOFfG5XMkhDQjzY8JpJwSj9rKyTptPcOCjhM4Ml6FoQR3WULf38B-9VZSLyp2raU9DwGfjkkujN0Cu3P5bU3dqdEwJaHiDS5-jmFafGLG3GXAlaIs_wiMDpuwhqEcNFYfVfX0lOQOw9uD9tEGX7gOR5q7LC21N11ssyWusYJ3kRX-knB-QRuHAt06nijeJaaIoGiLbQfgrvGL5SSSEoJLW_ioyOpBWZ3J-JxFvMdjYhvqoVdqLwGZosq0T3XbkRsrvyp83DdyDplggNNyC67zRrIQ7sTR_Xu8PkN9oI6ji5xEZSghvZo9PgiEXg4jAEQPMzYlrDNOui5tMfwZ6sj6C98T4YtEEgC1kMb0z-75S8aA36aDcyJczGhYik90tqoRHU5s9n6KVH28wOkhzaXgW1Gi3t7JBLfFzFr56Y3cJ=w1920-h396-no" className="ui image" width= "100%"/>
+    </div>
   <div class="middle aligned row">
     <div className="two wide column"> </div>
     <div class="seven wide column">
@@ -116,12 +116,12 @@ class CO2Emission extends Component {
             </div>
             <div className="ten wide column" style={{paddingRight:"0px"}}>
           <div class="ui divider"></div>
-          <p style={{fontFamily:"Georgia", fontSize: "16px"}}>"Where DOES it end? I can't be silent any longer...<span style={{color: "#FF008B"}}>WE MUST </span>stop the destruction and senseless slaughter of all that gives us life: <span style={{color: "#FF008B"}}>RAIN FORESTS AND OCEANS</span>. We cannot afford to lose one more acre of forest, we can't take any more storms and radioactive waste."</p>
+          <p style={{fontFamily:"Georgia", fontSize: "16px"}}>"Where DOES it end? I can't be silent any longer...<span style={{color: "#ff6600"}}>WE MUST </span>stop the destruction and senseless slaughter of all that gives us life: <span style={{color: "#ff6600"}}>RAIN FORESTS AND OCEANS</span>. We cannot afford to lose one more acre of forest, we can't take any more storms and radioactive waste."</p>
           
           </div>
      </div>
      <div className="row">
-       <p style={{color: "#FF008B"}}>Ian Somerhalder joined us last year as the Green Man on the Street for 24 Hours of Reality and has founded the Ian Somerhalder Foundation, which focuses on climate change as well as animal rights.</p> 
+       <p style={{color: "#ff6600"}}>Ian Somerhalder joined us last year as the Green Man on the Street for 24 Hours of Reality and has founded the Ian Somerhalder Foundation, which focuses on climate change as well as animal rights.</p> 
      </div>
      </div>
 </div>
@@ -132,13 +132,13 @@ class CO2Emission extends Component {
   <div class="ten wide column" style={{textAlign: "center"}}>
     <h2 className="ui header">Why are your favorites doing all of this, you may ask...this is why:</h2>
     <div class="ui pink segment" style={{fontWeight:"bold"}}>
-    Co2 emissions have been <span style={{color: "#FF008B"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
-    Give it a try and compare the data from two different years between <span style={{color: "#FF008B"}}>1751 & 2014</span> below!
+    Co2 emissions have been <span style={{color: "#ff6600"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
+    Give it a try and compare the data from two different years between <span style={{color: "#ff6600"}}>1751 & 2014</span> below!
     (Carbon emissions in metric tons)
     </div>
     <div className="graphBox" >
     <BarChart width={800} height={400} data={dataBarChart}
-margin={{top: 5, right: 20, left: 30, bottom: 5}} className="graphBox">
+margin={{top: 5, right: 20, left: 50, bottom: 5}} className="graphBox">
 <CartesianGrid strokeDasharray="3 3"/>
 <Tooltip/> 
 <XAxis dataKey="name"/>
@@ -163,7 +163,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} className="graphBox">
                 year2={this.state.tempIndexYear2}/>
   <br/>
   <div className="ui divider"></div>
-  <p style={{fontSize: "20px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080"}}>sea levels</Link>!</p>
+  <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080"}}>sea levels</Link>!</p>
   </div>
   <div class="column"></div>
 </div>
@@ -177,17 +177,17 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} className="graphBox">
     <div className="ui inverted green segment">
           <div class="ui three column grid">
   <div class="row">
-    <div class="column">
+    <div class="column" style={{color: "#59ADAF"}}>
           <span>Shawn Mendes</span>
           <img src="https://lh3.googleusercontent.com/hsvYXnob_EwLhwxcxdIOOmnlPoHTB06KVVbFWG2tcI0u_wLrfPrtARqG1KZ106oXAsgK0HXet_E-jBqt2zw_vhMM7HfvWRZ4z2X3G3z9IRqiXljIKX88JyAxiIQ1lWKY633yDC0XdC0rvLOwbdd2oC6OPdz9nF6VCxPnKiQy1u0EjDwI0Gn8zrCUkPLcORGVqmLE0QZhZR2SM9q9OZOL6gyT9Q_0d5pPS4WJUz1coicL2gsgDuvfUji1r9fdg98WgDWYYV5925JtSBFI94Md9L_UDD5fu0jFVVeINSaEZDQFJQ5JAPQNGLoihLWlq6fvllXvacSXs_hgcsexfF-T_kEE6ztMZbPjpImvNjGDStiykrazHp1S9iD45ICt0rfrCBBQfVtVvLW_30E9mTxB_RGOH6ufcFNMP-bJ6rnokcEOziLLK-HZ-JphCVjC8hcVpNAR-LvgPfdHRDjCqZqi-HTqCbPtkjadOn_kBlQKbrgOmC7NGWhMXAn4F_kUBeUiYsTh6fB9mw1z4Vt651tLnIdSFV1b_wvdPXz19SwZKX3XKZ0eodOiFtWOASC14gNedBbrBRMH1ZmDoAd0SWRqhXthCp519e2PjVFfWkGpLQQoWgY1OSnMMHsDG1HIw5uHgGcZ8pLvYEQUlJrOT58etZ9YUeyBV04OrK2ozUXyAY0C-dZpgEme_zAGrgVV9utdrVizjNC_4xFeIfEUyujxpe9iQiXedBzCymgMva25lbaSV3cG=w360-h450-no" className="ui image"/>
-    <p>"Together we can and will change the future of our planet"</p>
+    <p>Together we can and will change the future of our planet</p>
     </div>
-    <div class="column">
+    <div class="column" style={{color: "#EF4206"}}>
     <span>Billie Eilish</span>
     <img src="https://lh3.googleusercontent.com/aquKwr2OZMAfcDuLmCSWhndVpwfqp4Xl913sqiDeFPSvvtgaksZGa-K-k1b3qTeyVc5ReaHzOs7PFekxTvgeinNQG_8F2fKge9k-IXveVhdmAwVhe1Kfe7PGoiV2Zx-_lWsfSLyzi29gdqEPYP6WHjChhRoQUYYsTdfKQK65kB83dnPkMnZIS2j9wliPm3ofGsAcqbm1kNv-jq_aVg6CjG6GRjdJdvie52Fq9CxiHcgf4CBr0JbSugHRXJdDA3SsJCsGDcLjpnzpYMpYnxFNCeolyBv9KwHFvAUNbPz9PP6HAyLY47pEGMzcZ1CtLQjbATArialJDHHZIAoHyxs0N0SKmajMHWO2OvZSaPglPxKdvf4CknvopywEwTz_QZEXQ67iUNDFLXw2HGAjSTuQ1Lcun2GEhSejdqSD4_7utL59iFUCoyD2Nindn_GK5sLCqBNVtnHQvwj9oZCQnsxx7rKmgWTTHUNaqZwGE3EqpuBRLLRnqHft407EonNt9-bds3IscRVk9SMUkBX0Ysqu3LtDdk0UdsjMobxnyDHD9g9MlWJDS9xAGjtuXG6A-6SlHDD0S69ZCMaKTppP2QDSYMFdygUImdtFwaQApQRXe_IxAAGGTLGrjyoec6H_yEElFvJ3sKvoxxtz6ULrSn1ZPpjNzRWrxwMU1CCcVxzrzJ8cTu_elq3xeKZR9h8gnIZSS5Bpf5nKGKLw8Es9eK3tjQK3DwwNEqRCsioQ3KqmskLWtbiR=w360-h450-no" className="ui image"/>
    <p>TICK TOCK! Our time is running out, the climate crisis is very real. we need to speak up and demand that our leaders take action</p>
     </div>
-    <div class="column">
+    <div class="column" style={{color: "#59ADAF"}}>
     <span>Chris Hemsworth</span>
     <img src="https://lh3.googleusercontent.com/y-sOy1T2KVfcClNl_nGML8jnjx0k2xxZZkoW-H7Zdg00gqdOuPY0beSjsTLxG2U688pXpPW6dS7nOxVf5if_sHf8_hTLRcW64HdLM6xWjudUBdKTwYAF9KwTIxRlFz17G2jMl9wDaiC0U1dsl8S150KwGuVP7URcyGPcZ2xHMxTOZt-FA8YnyGeZY4dDgvOGMSLfLF8LX6UXF58IF4F4rmohDfPKYltMw6WmI-oCwSOFkrtFh62mHb6DXPA4l0NHTWqnEekFHp74UpjbGvuH3AqCnGm39ITgo7ce13z_zqQyHmkv4tgI7HjPQMg4H__YyhlqpPoM0o1cAY9GFJNELBQtdEk5j_o9kLNTqZXDXrueWje3QGLhuOBGxk0eGTK640driO86Yn7W9Mjq3lxMH8zx_Blm8I2YBtnux64VxEI3QnhunjXekgq_5cgjBlgClHkNvMleIEuTYYGL-uateF5a0pOjb0U4DptdnV5Mj2ukqNAYRzRz8wKradymSAGsZzX9biMl-TQd63Tq-8-w8SYzSaxt6U3-NW-RR-yFrZPiLcOSFh-wVlBWluPlf73_b7mlsmvC9vIZzPdxqTI_i7Q0CZlO68viSv_8hfT4If5kzareXw_uZTmkPtr57Mbkn1hEJt1JVs-k5AhIfUu9QXLvM2palXQ1-8J76gVXR1n_g0RCNTzRw7DUNciTKTRfMrERAzKJMAxK71am989X0PTwOZngu5JfQJ9LGjjIknnt2Ugz=w360-h450-no" className="ui image"/>
     <p>The planet will die and if you do the math, pretty sure that means...um yep we'll also be disposed of unceremoniously too</p>

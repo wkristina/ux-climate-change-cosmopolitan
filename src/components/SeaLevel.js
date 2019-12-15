@@ -78,10 +78,11 @@ class SeaLevel extends Component {
         </div>
         }
         return ( 
-            <div>
+            <div id="wrapper">
               <div class="ui centered three column grid">
   <div class="top aligned row">
-    <div class="sixteen wide column"><img src="https://lh3.googleusercontent.com/RdMoDa4GJmzXjhsq9HJtAkwKToSdmmSgIUq7DDECD9FaL-RSdpBUnSdF-SiKv55yxTd_EutwYuYTKQxpgBHnXg-ueCTSuiUHtSp1NE3YvNxsoN7GZkGa-zPUFnrwWZuVWnFMQMaLTB9xSBCAEKQbiZ7l1No6LFMyb0xbbwRwc56VujIeZgLx3UQr4re2h5nYMkZHEjihiwZJw0pLLVrLrWQbed6_Lk1JMf-Tm_oCcuk9LMofsNMk4-IIMJzEr1UYjHkNrl604nXq9TgLqK_O5Epvki-yX2qChE5GSsAV1JVGQNnauLgVwnbLj3YmnQHs9tcwQC0T__RdWkDbWXpuvLIZz2zzQ-2EaIA_qNtze2YQztYwqKJTnDh96zsl1SVRpr2JJR501FVJJmKxUZ3puRup4140qbhU8gQhd0x7C7unD7AMixPJLT_9B8E7n8kFywQ-mu9DkCRpJCXfF-1MDpxXNe55GHajWROHQj_55Y2nukQ4zCfiFL1WwvK1vf60WYuEsVjnmLMopnsRlzrj7VPe9SIf9Etx8AgnNlv60zdaOBKTD8HPxFJx3G3f_vuW9Md02geG7mWdjGhy-TUzX9GXrmhZCBbdobJynImMDQ3Sqb3Si5rFKtxYtupBMQJWaGQpDeB2V0CHskqESY6wd8k2xPdyG0WYh32f9TkVwa8xs9ItOG2o7LnD5U6uwvYDaEhu5iIHJvIk0RxbWWiSqfQ6HKjUKjhhYxPeZlAujp-5mrai=w1920-h330-no" className="ui image"/></div>
+    <img src="https://lh3.googleusercontent.com/RdMoDa4GJmzXjhsq9HJtAkwKToSdmmSgIUq7DDECD9FaL-RSdpBUnSdF-SiKv55yxTd_EutwYuYTKQxpgBHnXg-ueCTSuiUHtSp1NE3YvNxsoN7GZkGa-zPUFnrwWZuVWnFMQMaLTB9xSBCAEKQbiZ7l1No6LFMyb0xbbwRwc56VujIeZgLx3UQr4re2h5nYMkZHEjihiwZJw0pLLVrLrWQbed6_Lk1JMf-Tm_oCcuk9LMofsNMk4-IIMJzEr1UYjHkNrl604nXq9TgLqK_O5Epvki-yX2qChE5GSsAV1JVGQNnauLgVwnbLj3YmnQHs9tcwQC0T__RdWkDbWXpuvLIZz2zzQ-2EaIA_qNtze2YQztYwqKJTnDh96zsl1SVRpr2JJR501FVJJmKxUZ3puRup4140qbhU8gQhd0x7C7unD7AMixPJLT_9B8E7n8kFywQ-mu9DkCRpJCXfF-1MDpxXNe55GHajWROHQj_55Y2nukQ4zCfiFL1WwvK1vf60WYuEsVjnmLMopnsRlzrj7VPe9SIf9Etx8AgnNlv60zdaOBKTD8HPxFJx3G3f_vuW9Md02geG7mWdjGhy-TUzX9GXrmhZCBbdobJynImMDQ3Sqb3Si5rFKtxYtupBMQJWaGQpDeB2V0CHskqESY6wd8k2xPdyG0WYh32f9TkVwa8xs9ItOG2o7LnD5U6uwvYDaEhu5iIHJvIk0RxbWWiSqfQ6HKjUKjhhYxPeZlAujp-5mrai=w1920-h330-no" className="ui image" width= "100%"/>
+    
   </div>
   <div class="middle aligned row">
     <div className="one wide column"></div>
@@ -89,7 +90,7 @@ class SeaLevel extends Component {
       <div className="two column grid">
         <div className="row">
           <div className="six wide column" >
-            <p>And these are the consquences...</p>
+            <h2>And these are the consquences...</h2>
             <div className="ui divider"></div>
             <br/>
           <p>Fast fashion is a business model that promotes rapid production of cheap clothing to meet the most recent fashion trends. Quality and durability have been pushed aside in favour of cheap clothing. The devastating truth to this is that it has lead to enormous quantities of clothing ending up in landfills.</p>
@@ -116,14 +117,16 @@ class SeaLevel extends Component {
   <div class="row">
     <div class="column">
           <img src="https://lh3.googleusercontent.com/2i2pEx8vpESAmQy-vnM2e2FMlvFt-vubINlUrTnuol_SaSwPiZ-aYt-gg3cFh9U91QrP3eJm4HTOlC-2gGA4Uaf4BHxLNBdcWnD9Qz-Jx64fNU-vTOrECIXynEbWg7ufGKlI5-zFfgsuPYeoy60HZoneEPAUTQ24CfgsQGgOuLeBuCsL8xDAn_BddApA5JZFEy98qrW_iB1wQorVA9vJm-p1X6BEPKriZyx60t6U0A2cFiA81WDMkPQJFy837pA7zjq1bYIkKERve7ulZMNAk9L-k1oEHvd7TPU7x2JMicAbkRfXTGyZmJjlFTno8apX_g46YRyMpUDhLzl569Hw2pjZHJYlLz9chQy8sVAFQGP_kQeKeYcV8vD8hzksRBmi98dgP6TArr7uvDPc0lLMoI5PtHlEF8ZPs70tYTyqmAkORhga48e5cLfQrJrh8ruxtg8CLUB8wSUe3xxsPEk_PbXdDZ-eWlPQ7L49VvzorlhTxCKvOh5CGUIomT_yVZq8kWMsAIHr5aECUTDgJfiqre4UdXApCUwpdusNc5m-ygYuYgyre8Es9ONGvBcy07gWXbkqnlhM9g2FQCgdJntpRWYGIKoBAC7gyA97wVhEcKkPeIWIekFkQdlYUXO8yOrPNu-F0sI2TjLsvGEq9GVI26BDmS0ZHc8UFjXsEsBcpYIx5gpCkyNXqKD0QUB79ahQ_Dwyb-rwvUV_r1TaL0Yvpezp30OuK-bBVsyjHAM5ktArGjvv=w993-h843-no" className="ui medium image"/>
-   <p style={{color:"blue"}}>1989         vs.         2014</p>
+   <p style={{color:"#59ADAF", fontWeight:"bold"}}>1989         vs.         2014</p>
     </div>
     <div class="column">
     <br/>
     <br/>
-    <p style={{color:"blue"}}>Almost the entire Aral sea has now dried up because the rivers leading to it were redirected to maintain cotton plantations</p>
+    <p style={{color:"#59ADAF", fontWeight:"bold"}}>Almost the entire Aral sea has now dried up because the rivers leading to it were redirected to maintain cotton plantations</p>
    <br/>
-   <p style={{color:"blue"}}>Left is only arid desert...</p>
+   <p style={{color:"#59ADAF", fontWeight:"bold"}}>Left is only arid desert...</p>
+   <br/>
+   <p style={{color:"#59ADAF", fontWeight:"bold"}}>Is fashion really worth all this destruction?</p>
     </div>
   </div>
 </div>
@@ -145,7 +148,7 @@ class SeaLevel extends Component {
     </div>
     <div className="graphBox">
   <LineChart width={800} height={400} data={this.state.seaLevelChange}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}} className="graphBox">
+            margin={{top: 5, right: 20, left: 30, bottom: 5}} className="graphBox">
        <XAxis  dataKey="Time"/>
        <YAxis/>
        <CartesianGrid strokeDasharray="3 3"/>

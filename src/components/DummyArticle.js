@@ -9,9 +9,8 @@ class DummyArticle extends Component {
                 <h1 class="ui center aligned header">More exciting content coming soon!</h1>
                 <div className="ui centered two column grid">
                 <p>
-                <a>
-                We are working hard to present you more content. Thanks for your patience! Meanwhile, why don't you check out the facts about 
-                </a> <Link className="linkTo" to="/co2"> CO2 emissions</Link>?
+                We are working hard to present you more content. Thanks for your patience! Meanwhile, why don't you check out the latest gossip about 
+                 <Link className="linkTo" to="/celeb"> your favorite celebrities</Link>?
                 </p>
                 </div>
             </div>
