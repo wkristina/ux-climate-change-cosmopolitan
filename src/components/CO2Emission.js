@@ -79,24 +79,68 @@ class CO2Emission extends Component {
     <div class="sixteen wide column"><img src="https://lh3.googleusercontent.com/_jY5dm0X61txxKPi4JYwIS4oLMewnqdMahSBbnBTC7xJluzRXJ2Ojuhq5gzTPb5JFEaKT3xYEF6KDRXixEkO5r9T0VKb8FSiewY4rIlwyHdvn7mACfTcn7VkRKyGz19h36hnCfAgl2Dg_lljo4UC88j4Im8F9lK6l75P8_xsoNDTzxl23YvbONqcTLfLdhMirQwvkpfdxBZDveRBTwwRapbFuMevVQQ_Jsufl-OXEhJilik0gvWJMmNyHp13oEU4s6VsIAMCQq08jblEXFGE01QBEx3Qx9_VeRku5E5Caw4T-PVaVGqBa4K1TdlfGGJgFozl_pTOFfG5XMkhDQjzY8JpJwSj9rKyTptPcOCjhM4Ml6FoQR3WULf38B-9VZSLyp2raU9DwGfjkkujN0Cu3P5bU3dqdEwJaHiDS5-jmFafGLG3GXAlaIs_wiMDpuwhqEcNFYfVfX0lOQOw9uD9tEGX7gOR5q7LC21N11ssyWusYJ3kRX-knB-QRuHAt06nijeJaaIoGiLbQfgrvGL5SSSEoJLW_ioyOpBWZ3J-JxFvMdjYhvqoVdqLwGZosq0T3XbkRsrvyp83DdyDplggNNyC67zRrIQ7sTR_Xu8PkN9oI6ji5xEZSghvZo9PgiEXg4jAEQPMzYlrDNOui5tMfwZ6sj6C98T4YtEEgC1kMb0z-75S8aA36aDcyJczGhYik90tqoRHU5s9n6KVH28wOkhzaXgW1Gi3t7JBLfFzFr56Y3cJ=w1920-h396-no" className="ui image"/></div>
   </div>
   <div class="middle aligned row">
-    <div className="column"> <Link to="/celeb"> <img src="https://lh3.googleusercontent.com/JLoWcqyk9foVuKeQj9cR-Yun_jvOlg93wDqk8jDuymqK83O4S0zNRjGyn09HjGxDxATRAbTrsnoKf2eqi7y-9hNba40FQ76kHcV5ldizXFEtCCajxFOphvIJXuS1VIMe0iQAJmmRjE62D72ruUha1RmM7ZG-9o0t5MYdI7ACbyM_dUmf53iQzvYYUMxcmatpNiBixSRodpFzTEsy13RxlOOHhRu4aa_Dw979oog3H1RSIJyONLsnxnuhzY-qz0myMR-aeqnuiL4oqlaFNgd1kEHe-mvqai7vGXFpWd2auX8YWeh_MnfvaqVVbBbZBiOAf-pZhU8czv_iYfpObBXSpPdzq4TytcF2DcMELhM5KWueWDiE0CaXvlYNb1qbNxNa-YSOU4sGTqHrSJRPpfrqfVj0ylVCgD7asTFDKPTeTA0KRXD7pvbWrnLzoMMo5hOTgGkqAo2YK8XD50ENivDlfPxVUU363GeJPHuuzgKnhqlYsF8S5buze2e45GJsPcYqV9lzq6oJZvcfOsyXjhYSiTsHF9z1h1eOCaQDXRCYq1PCkjQQknQ7YXe4jgxMtNnl3I9fg5nlDZXNg1IydmigDMW5l5Jmfayb7mU9bLlYswxdLw9Hcxn3-szI9EwvlSTYaH2H3fdf08Bj7WkXtoSHd0_61Ce-VijxTguli7WgpqGNu7wf-0QNAwSJabYO8t5KsQTcm5pq6-6L-3lw35O0rXGJFImiZDcaycQYXXCcV4oOHDC4=w892-h903-no" class="ui medium circular image" /> </Link></div>
-    <div class="column"><img src="https://lh3.googleusercontent.com/8JFGDY-YQalhvhIvpn7c08m0pYYA4nNe4Ul-kys_dP70wpbgtrOFWc5tlycLY_oXpZ_xGD8gwxnAaP3lgZwN39-9lMeNUauS43jA90a67OjyYBLN62IQAYYZRtZAVFSiQB1iUhZQT44txhQItrmcd8ob0VZ7SJM96KcRLMJeiIGS5QiwY0z8YUTjHOH3g4lWy0u2c3PkmdPwPseVq4J64LALWppUlsPvdS-ZEwGTJiKd259ZP_SqUk60vwRpQtKN5oSdU4H2AawutgjOQDCXTh7fzK55ScLeAaPtJav3dHmWAA70OEETV3lM9WuXKUTi5U0yedxphwb0XW_5hE4eG7cKRRWv2lEqsQcbEZ6Kr42lgNX8ZJsZYFm6VK4GQANRDbdWW6hv1SYMhLrXP2LopmDNS_r4JBQtXE77AMSp4qffM3Flo3AA0SE4EMnxntcJhgW9QdiF3QvOEKFNY_NH3jPozeq5XZ74d8FuOsDBacrQmdsm48m3h4MJCUaramL7rsz84K_o3_sDjemUm69ALud3SvZsIEOjJ4qBoSrzhJbjGRkxBhmMtc9QWDM6axRDkLfJyaWO7c7Depw97Q1VbXgpLJJ_sKUUXwCbFSk20NFgKp1dfoAm2dzMTbIAQYVM6ODU8S6cDzNJP_n2N03YFvdGAF7FIBpnIiVn8ELK3L7b_rx0tVhTj7uhr6BsnWj8QFcOHzL1N7C3vg-iQ7uTo52lhTGURSNqZjFsIenqlz8I-wJS=w1200-h800-no" className="ui image"/></div>
-   <div className="column"></div> 
+    <div className="two wide column"> </div>
+    <div class="seven wide column">
+          <div className="ui segments">
+          <div className="ui inverted green segment">
+            <span className="title">Get inspired by these amazing celebrities championing climate change</span>
+            <br/>
+            <br/>
+            <span className="subtitle">we stan these legends</span>
+          </div>
+          <div className="ui inverted brown segment">
+          <div class="ui two column grid">
+  <div class="row">
+    <div class="column">
+    <p className="bigQuote">"I do believe if every person does something small, you can make a big impact. I try to do my little part every day; I compost, I recycle, I use all eco-friendly and sustainable materials"</p>  
+    
+    <p className="explanation">As co-founder of The Honest Company (which specializes in eco-friendly products), Jessica Alba has shown that businesses can play a powerful role in the climate movement. It's possible to put people and the planet first, all while making profit.</p>
+    </div>
+    <div class="column">
+      <img src="https://lh3.googleusercontent.com/PBc0EbklHFV3n3VdeCb160AVywuvVwHqRPtU9eTwuPzPWaFBS8B5Nvixhn8qfWreH1N-pYRTtWiIMDO_6PSMWbu4ElJPiJplxkiyEuYkDRuqnarXrWyTSGy07JH7OrrqTWEl2x1KGrhAkpKZfdkpCoWHoqqubJb_EnDLtp2BBO51XZSYVvp5qgAyILNLTVwEXai7i5zAJ6aG7Lpnls7MDZOSowOiMmpvx62Ovi5d8wLHmewz9RleITnBKMTThLamMzy7E2miymCrBT0ls-E8bfZ_Cyt6X2MhDY_Ijkiqmhp4VRTlKEI113V4dL2XLaXzdl4V07J7vLeOh4lvhOxrXaCHvkY-TvOqivDSjwMX5UA47Qj7H-mD8pJyE6x_itrQf9UiU6k2DN0LAq1-y8wbpyb94sgC30eMsU3jcoCU7EB8QPb83jYMggdodSmPGR7wNPBi1Qp5w_KtkjqmSJN7LYL8ppA1Fgx0YElxTwnjgoGK3qAwVDGc9FY9ezjmI_gFk79_EAUFtuhwMLc3mX98X1H07PIVPOaMffFu44kyocW9MEYTAiHC3a6N5q0lT6A7jdWVHLcTDSA63bsahJ05qdnuiWBgYNDWGkd2R43n9DJDjCRHy8VxTnsGzLmj-DkfZq6WW4gWHIQ53towl-yaJARSwIPRRcVH7RXDkHgGSi4gxnyJc4s3Bl0qddPJ9vwQnxj81ascpQ8g-BkRORy-GApS943PtAmjLMcHz1Dqvak6IMel=s400-no" class="ui medium image" />
+    </div>
+  </div>
+</div>
+          </div>
+          </div>
+    </div>
+   <div className="two wide column"></div> 
   </div>
   <div class="middle aligned row">
   <div class="column"></div>
-    <div class="column"><div className="oneTextBox" >Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the blowers and the chassis of a gutted game console. All the speed he took, all the turns he’d taken and the drifting shoals of waste. Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the blowers and the dripping chassis of a broken mirror bent and elongated as they fell. Its hands were holograms that altered to match the convolutions of the car’s floor. They floated in the tunnel’s ceiling. Case felt the edge of the room where Case waited. Images formed and reformed: a flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the coffin for Armitage’s call. The Sprawl was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. Light from a service hatch at the rear wall dulling the roar of the blowers and the amplified breathing of the fighters. Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the missionaries, the train reached Case’s station.
-</div></div>
-    <div class="column"><Link to="/celeb"> <img src="https://lh3.googleusercontent.com/JLoWcqyk9foVuKeQj9cR-Yun_jvOlg93wDqk8jDuymqK83O4S0zNRjGyn09HjGxDxATRAbTrsnoKf2eqi7y-9hNba40FQ76kHcV5ldizXFEtCCajxFOphvIJXuS1VIMe0iQAJmmRjE62D72ruUha1RmM7ZG-9o0t5MYdI7ACbyM_dUmf53iQzvYYUMxcmatpNiBixSRodpFzTEsy13RxlOOHhRu4aa_Dw979oog3H1RSIJyONLsnxnuhzY-qz0myMR-aeqnuiL4oqlaFNgd1kEHe-mvqai7vGXFpWd2auX8YWeh_MnfvaqVVbBbZBiOAf-pZhU8czv_iYfpObBXSpPdzq4TytcF2DcMELhM5KWueWDiE0CaXvlYNb1qbNxNa-YSOU4sGTqHrSJRPpfrqfVj0ylVCgD7asTFDKPTeTA0KRXD7pvbWrnLzoMMo5hOTgGkqAo2YK8XD50ENivDlfPxVUU363GeJPHuuzgKnhqlYsF8S5buze2e45GJsPcYqV9lzq6oJZvcfOsyXjhYSiTsHF9z1h1eOCaQDXRCYq1PCkjQQknQ7YXe4jgxMtNnl3I9fg5nlDZXNg1IydmigDMW5l5Jmfayb7mU9bLlYswxdLw9Hcxn3-szI9EwvlSTYaH2H3fdf08Bj7WkXtoSHd0_61Ce-VijxTguli7WgpqGNu7wf-0QNAwSJabYO8t5KsQTcm5pq6-6L-3lw35O0rXGJFImiZDcaycQYXXCcV4oOHDC4=w892-h903-no" class="ui medium circular image" /></Link></div>
+    <div class="column">
+     <div className="ui two column grid">
+          <div className="row">
+            <div className="six wide column" style={{paddingLeft:"0px"}}>
+            <img src="https://lh3.googleusercontent.com/qApUYLi5Q2FfWFsBs7B_-oZ_G6jybElnr2C-Zho5zk1qbUjn5OdwB4UcvlAF8vb9d3sRYdXCGbP0NPUFb5jFG3uWRbP8TjOAGxEqh91wV-mNQwNDueKHHqB2v5QdzkDqhA8P-BiADHGd08IYgsvdj2tvPz-M4mAPFHsDankQxLQelrQuVEGyxMQyxx_1lNAAEd2RqyE8R9JW6iR9urGIlGataPa3xBh_3uwYgHOnpjmVsP9XKOVywXtJflsNoRich_CYIa793u-MJD_hdgrJU7FcepI0XJAX3xXZDwvwkzTKXjcvpZTX2BWbYSX8d51e7GgzrrCijf6q8y4iWk8bbkIKxLulamf2fQ7MWRtGtpXWKTuz1jCYbDp4Zz2-D2bCZDAweWpisN4lvomugTBYkrcf4BROo2m7IVDFsLx6gq6NuENnS-hRxhCkUdKmYA3QvK45qgD1swBcJOPUCLH3h23TgDISQKYFriyD5gY7Efs-Fn-Z_ztlObS1R6Ci7jFIiokBSvB_MTyZAA2cmePDyf1mo0j0tke1FmN5j_ewSIJzsF9ImtpGrjnsl61OnMiAc0L3xzgc1NSIP6EFNnfCmWky8rNzZxX8vvvUP9LRoe9hnafnA9_PyoqVmPE75Zlo-AxJX8abyQ5y1484nQS5ofmePvdq93JWrvKEn9aKxtlDAho81x0Rkd3jBhDHrRRXc6ssZx_MLrPRbIkWyOYp1p9ZVhJj-CvornhTo0rkMPaTm_Yt=w727-h645-no" className="ui medium circular image"/>
+            </div>
+            <div className="ten wide column" style={{paddingRight:"0px"}}>
+          <div class="ui divider"></div>
+          <p style={{fontFamily:"Georgia", fontSize: "16px"}}>"Where DOES it end? I can't be silent any longer...<span style={{color: "#FF008B"}}>WE MUST </span>stop the destruction and senseless slaughter of all that gives us life: <span style={{color: "#FF008B"}}>RAIN FORESTS AND OCEANS</span>. We cannot afford to lose one more acre of forest, we can't take any more storms and radioactive waste."</p>
+          
+          </div>
+     </div>
+     <div className="row">
+       <p style={{color: "#FF008B"}}>Ian Somerhalder joined us last year as the Green Man on the Street for 24 Hours of Reality and has founded the Ian Somerhalder Foundation, which focuses on climate change as well as animal rights.</p> 
+     </div>
+     </div>
+</div>
+    <div class="column"></div>
   </div>
-  <div class="middle aligned row"> 
-  
-  <div class="column">
-    <div className="graphBox" width={700}>
-    <BarChart width={700} height={400} data={dataBarChart}
-margin={{top: 5, right: 30, left: 20, bottom: 5}} className="graphBox">
+  <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
+  <div className="two wide column"></div>
+  <div class="ten wide column" style={{textAlign: "center"}}>
+    <h2 className="ui header">Why are your favorites doing all of this, you may ask...this is why:</h2>
+    <div class="ui pink segment" style={{fontWeight:"bold"}}>
+    Co2 emissions have been <span style={{color: "#FF008B"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
+    Give it a try and compare the data from two different years between <span style={{color: "#FF008B"}}>1751 & 2014</span> below!
+    (Carbon emissions in metric tons)
+    </div>
+    <div className="graphBox" >
+    <BarChart width={800} height={400} data={dataBarChart}
+margin={{top: 5, right: 20, left: 30, bottom: 5}} className="graphBox">
 <CartesianGrid strokeDasharray="3 3"/>
-<Tooltip/>
+<Tooltip/> 
 <XAxis dataKey="name"/>
 <YAxis/>
 <Legend/>
@@ -105,27 +149,55 @@ margin={{top: 5, right: 30, left: 20, bottom: 5}} className="graphBox">
 </BarChart>
       </div>
   </div>
-  <div className=" three wide column">
+  <div className="two wide column" >
    </div>
   </div>
-  <div class="middle aligned row"> 
+  <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
   <div class="column"></div>
-  <div class="column">
-      <p className="description">Carbon emissions from different sources in metric tons</p>
-      <br />
+  <div class="column" style={{ textAlign:"center"}}>
   <CompareBoxes
                 handleInputFirst={this.handleInputFirst}
                 handleInputSecond={this.handleInputSecond}
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
                 year2={this.state.tempIndexYear2}/>
+  <br/>
+  <div className="ui divider"></div>
+  <p style={{fontSize: "20px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080"}}>sea levels</Link>!</p>
   </div>
   <div class="column"></div>
 </div>
 <div class="bottom aligned row"> 
-<div class="column"></div>
-<div class="column"><img src="https://lh3.googleusercontent.com/S6_PwaL1Y-SjMKlvd8mfYJNpjP7K0JjiXdVTlMbHbyxTXEGL7a9TIX1476sCfsD48cK-HKfcO3uMIgeSacNPrDBs9djG76eq2V_0_VCyQOlrb4rtQrvbQa8keAyFjjZsQWjdjLknE7JHPJ0s7BvM1Swe9eHzHvBRDSeleOFyz4Lj3Lad3A9DTCbXRIW52haY93sFRbB3InyEMqmYuodedTY3XqzY-ylqVQj515UkFTYPVNfMCvGGnht00iig-zjixVlZI5R65TqMan1ENLx-tTvoaBwwuoiQKzs_EIRjs5hL5V-3KUWkeqj9_Gfvx4MOu8XFGv9OA6qk6H1Y-ZbEsvjSodCLxk27wqGzx_B631InjC7Cb0yrEdJ34vdv28K1oUH1t48uVUKmr8z3LzIQf6BKTj-YPFu9rLRpHzlIhFB-F5ayBHoHeGi33i-wmSZczkdPCRhvkJivjEBI8UUoSqN_zKmhDmZH7ayO783ENmlDy_CuK02jjGTUNV7OM4uuu98DY2lgFxRgTWY5_tcMrwVO-niJZIby4MzJvtXpPF4WiZoN0AfEBFHjxY56yghVI4rzeaQ3IypX5sUlOCtJHCrU28KlBkGKhkRVox-A91F_9MqskQTyS_fGP2hU0YFdqDI6eNyoSFn4ooLqG4wXhNPAulqrc6jb4dBqwe6X2u-Bjyas_a7qDcRXylIZqcLfcRoDv5K6hWlU9MnoEcFVZkPBs23Fme2Qumhbnwx69AFLFxLQ=w1200-h801-no" class="ui image" /></div>
-<div class="column"></div>
+<div class="two wide column"></div>
+<div class="seven wide column">
+<div className="ui segments">
+  <div className="ui inverted pink segment">
+  <span style={{color: "white"}}>More quotes from celebrities about climate change...</span>
+    </div>
+    <div className="ui inverted green segment">
+          <div class="ui three column grid">
+  <div class="row">
+    <div class="column">
+          <span>Shawn Mendes</span>
+          <img src="https://lh3.googleusercontent.com/hsvYXnob_EwLhwxcxdIOOmnlPoHTB06KVVbFWG2tcI0u_wLrfPrtARqG1KZ106oXAsgK0HXet_E-jBqt2zw_vhMM7HfvWRZ4z2X3G3z9IRqiXljIKX88JyAxiIQ1lWKY633yDC0XdC0rvLOwbdd2oC6OPdz9nF6VCxPnKiQy1u0EjDwI0Gn8zrCUkPLcORGVqmLE0QZhZR2SM9q9OZOL6gyT9Q_0d5pPS4WJUz1coicL2gsgDuvfUji1r9fdg98WgDWYYV5925JtSBFI94Md9L_UDD5fu0jFVVeINSaEZDQFJQ5JAPQNGLoihLWlq6fvllXvacSXs_hgcsexfF-T_kEE6ztMZbPjpImvNjGDStiykrazHp1S9iD45ICt0rfrCBBQfVtVvLW_30E9mTxB_RGOH6ufcFNMP-bJ6rnokcEOziLLK-HZ-JphCVjC8hcVpNAR-LvgPfdHRDjCqZqi-HTqCbPtkjadOn_kBlQKbrgOmC7NGWhMXAn4F_kUBeUiYsTh6fB9mw1z4Vt651tLnIdSFV1b_wvdPXz19SwZKX3XKZ0eodOiFtWOASC14gNedBbrBRMH1ZmDoAd0SWRqhXthCp519e2PjVFfWkGpLQQoWgY1OSnMMHsDG1HIw5uHgGcZ8pLvYEQUlJrOT58etZ9YUeyBV04OrK2ozUXyAY0C-dZpgEme_zAGrgVV9utdrVizjNC_4xFeIfEUyujxpe9iQiXedBzCymgMva25lbaSV3cG=w360-h450-no" className="ui image"/>
+    <p>"Together we can and will change the future of our planet"</p>
+    </div>
+    <div class="column">
+    <span>Billie Eilish</span>
+    <img src="https://lh3.googleusercontent.com/aquKwr2OZMAfcDuLmCSWhndVpwfqp4Xl913sqiDeFPSvvtgaksZGa-K-k1b3qTeyVc5ReaHzOs7PFekxTvgeinNQG_8F2fKge9k-IXveVhdmAwVhe1Kfe7PGoiV2Zx-_lWsfSLyzi29gdqEPYP6WHjChhRoQUYYsTdfKQK65kB83dnPkMnZIS2j9wliPm3ofGsAcqbm1kNv-jq_aVg6CjG6GRjdJdvie52Fq9CxiHcgf4CBr0JbSugHRXJdDA3SsJCsGDcLjpnzpYMpYnxFNCeolyBv9KwHFvAUNbPz9PP6HAyLY47pEGMzcZ1CtLQjbATArialJDHHZIAoHyxs0N0SKmajMHWO2OvZSaPglPxKdvf4CknvopywEwTz_QZEXQ67iUNDFLXw2HGAjSTuQ1Lcun2GEhSejdqSD4_7utL59iFUCoyD2Nindn_GK5sLCqBNVtnHQvwj9oZCQnsxx7rKmgWTTHUNaqZwGE3EqpuBRLLRnqHft407EonNt9-bds3IscRVk9SMUkBX0Ysqu3LtDdk0UdsjMobxnyDHD9g9MlWJDS9xAGjtuXG6A-6SlHDD0S69ZCMaKTppP2QDSYMFdygUImdtFwaQApQRXe_IxAAGGTLGrjyoec6H_yEElFvJ3sKvoxxtz6ULrSn1ZPpjNzRWrxwMU1CCcVxzrzJ8cTu_elq3xeKZR9h8gnIZSS5Bpf5nKGKLw8Es9eK3tjQK3DwwNEqRCsioQ3KqmskLWtbiR=w360-h450-no" className="ui image"/>
+   <p>TICK TOCK! Our time is running out, the climate crisis is very real. we need to speak up and demand that our leaders take action</p>
+    </div>
+    <div class="column">
+    <span>Chris Hemsworth</span>
+    <img src="https://lh3.googleusercontent.com/y-sOy1T2KVfcClNl_nGML8jnjx0k2xxZZkoW-H7Zdg00gqdOuPY0beSjsTLxG2U688pXpPW6dS7nOxVf5if_sHf8_hTLRcW64HdLM6xWjudUBdKTwYAF9KwTIxRlFz17G2jMl9wDaiC0U1dsl8S150KwGuVP7URcyGPcZ2xHMxTOZt-FA8YnyGeZY4dDgvOGMSLfLF8LX6UXF58IF4F4rmohDfPKYltMw6WmI-oCwSOFkrtFh62mHb6DXPA4l0NHTWqnEekFHp74UpjbGvuH3AqCnGm39ITgo7ce13z_zqQyHmkv4tgI7HjPQMg4H__YyhlqpPoM0o1cAY9GFJNELBQtdEk5j_o9kLNTqZXDXrueWje3QGLhuOBGxk0eGTK640driO86Yn7W9Mjq3lxMH8zx_Blm8I2YBtnux64VxEI3QnhunjXekgq_5cgjBlgClHkNvMleIEuTYYGL-uateF5a0pOjb0U4DptdnV5Mj2ukqNAYRzRz8wKradymSAGsZzX9biMl-TQd63Tq-8-w8SYzSaxt6U3-NW-RR-yFrZPiLcOSFh-wVlBWluPlf73_b7mlsmvC9vIZzPdxqTI_i7Q0CZlO68viSv_8hfT4If5kzareXw_uZTmkPtr57Mbkn1hEJt1JVs-k5AhIfUu9QXLvM2palXQ1-8J76gVXR1n_g0RCNTzRw7DUNciTKTRfMrERAzKJMAxK71am989X0PTwOZngu5JfQJ9LGjjIknnt2Ugz=w360-h450-no" className="ui image"/>
+    <p>The planet will die and if you do the math, pretty sure that means...um yep we'll also be disposed of unceremoniously too</p>
+    </div>
+  </div>
+</div>
+</div>
+          </div>
+  </div>
+<div class="two wide column"></div>
 </div>
       </div>
             </div>

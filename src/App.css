@@ -56,12 +56,19 @@ a:hover{
     
 }
 
+.ui.button{
+  background-color: #ff0080;
+  color: white;
+}
 
-.oneTextBox{
-  background-color: fuchsia;
-  text-align: center;
-  width: 500px;
-  border-right: 30px;
+.ui.button:hover {
+  background-color: #ff6600; 
+  color: white;
+}
+
+.ui.button:focus {
+  background-color: #ff6600; 
+  color: white;
 }
 
 .description{
@@ -69,7 +76,8 @@ a:hover{
 }
 
 .graphBox{
-  background-color: #FEDDD6
+  background-color: #FEDDD6;
+  padding-right: 100px;
 }
 
 #infoBox{
@@ -80,3 +88,68 @@ a:hover{
   height: 250px;
   background-color: #FEDDD6;
 }
+
+#leftTopLinkColomn{
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+#leftBottomLinkColomn{
+  padding-bottom: 100px;
+  padding-left: 200px;
+}
+
+#rightTopLinkColomn{
+padding-top: 100px;
+padding-right: 200px;
+}
+
+#rightBottomLinkColomn{
+  padding-bottom: 100px;
+  padding-right: 200px;
+  }
+
+#question{
+position:absolute;
+left:0;
+right:0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: large;
+height: 200px;
+text-align: center;
+display:block;
+ margin:auto;
+}
+
+.ui.inverted.green.segment{
+  background-color: #CAE3E8 !important;
+  text-align: center;
+}
+
+.ui.inverted.brown.segment{
+  background-color: #FFF4EE !important;
+  text-align: center;
+}
+
+.title{
+color: #EF4206;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.subtitle{
+  color: #EF4206;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.bigQuote{
+  color: #B5D3CE;
+  font-size: 18px;
+}
+
+.explanation{
+  color: #B5D3CE;
+  font-size: 16px;
+}
+
