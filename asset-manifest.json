@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ux-climate-change-cosmopolitan/static/css/main.ee6645ae.chunk.css",
-    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.3b44ab82.chunk.js",
-    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.3b44ab82.chunk.js.map",
+    "main.css": "/ux-climate-change-cosmopolitan/static/css/main.a586ebdc.chunk.css",
+    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.7522b0a5.chunk.js",
+    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.7522b0a5.chunk.js.map",
     "runtime-main.js": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js",
     "runtime-main.js.map": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js.map",
     "static/css/2.df67cc6c.chunk.css": "/ux-climate-change-cosmopolitan/static/css/2.df67cc6c.chunk.css",
-    "static/js/2.deed6c05.chunk.js": "/ux-climate-change-cosmopolitan/static/js/2.deed6c05.chunk.js",
-    "static/js/2.deed6c05.chunk.js.map": "/ux-climate-change-cosmopolitan/static/js/2.deed6c05.chunk.js.map",
+    "static/js/2.873e2a6e.chunk.js": "/ux-climate-change-cosmopolitan/static/js/2.873e2a6e.chunk.js",
+    "static/js/2.873e2a6e.chunk.js.map": "/ux-climate-change-cosmopolitan/static/js/2.873e2a6e.chunk.js.map",
     "index.html": "/ux-climate-change-cosmopolitan/index.html",
-    "precache-manifest.6faeb9ed0c0c7d5b8f6bbc847065c3ce.js": "/ux-climate-change-cosmopolitan/precache-manifest.6faeb9ed0c0c7d5b8f6bbc847065c3ce.js",
+    "precache-manifest.ab8b7259ea3de89e263a47e0c02f1122.js": "/ux-climate-change-cosmopolitan/precache-manifest.ab8b7259ea3de89e263a47e0c02f1122.js",
     "service-worker.js": "/ux-climate-change-cosmopolitan/service-worker.js",
     "static/css/2.df67cc6c.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/2.df67cc6c.chunk.css.map",
-    "static/css/main.ee6645ae.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/main.ee6645ae.chunk.css.map",
+    "static/css/main.a586ebdc.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/main.a586ebdc.chunk.css.map",
     "static/media/semantic.min.css": "/ux-climate-change-cosmopolitan/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.3b39d29d.js",
     "static/css/2.df67cc6c.chunk.css",
-    "static/js/2.deed6c05.chunk.js",
-    "static/css/main.ee6645ae.chunk.css",
-    "static/js/main.3b44ab82.chunk.js"
+    "static/js/2.873e2a6e.chunk.js",
+    "static/css/main.a586ebdc.chunk.css",
+    "static/js/main.7522b0a5.chunk.js"
   ]
 }
