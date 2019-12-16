@@ -6,7 +6,7 @@ class DummyArticle extends Component {
     render() { 
         return ( 
             <div>
-                <h1 class="ui center aligned header">More exciting content coming soon!</h1>
+                <h1 class="ui center aligned header" style={{fontFamily:"Century Gothic"}}>More exciting content coming soon!</h1>
                 <div className="ui centered two column grid">
                 <p>
                 We are working hard to present you more content. Thanks for your patience! Meanwhile, why don't you check out the latest gossip about 

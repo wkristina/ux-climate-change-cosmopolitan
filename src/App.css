@@ -22,11 +22,11 @@
 }
 
 .item{
-  font-family: Arial, Helvetica, sans-serif
+  font-family: "Century Gothic"
 }
 
 *{
-  font-family: Arial, Helvetica, sans-serif
+  font-family: "Century Gothic"
 }
 
 a{
@@ -38,7 +38,7 @@ a:hover{
 }
 
 h3, h1, p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Century Gothic";
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ text-align: center;
 position:absolute;
 left:0;
 right:0;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Century Gothic";
 font-size: large;
 height: 350px;
 text-align: center;
@@ -154,13 +154,13 @@ display:block;
 .title{
 color: #EF4206;
 font-size: 20px;
-font-family: Arial, Helvetica, sans-serif
+font-family: "Century Gothic"
 }
 
 .subtitle{
   color: #EF4206;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Century Gothic";
   font-style: italic;
 }
 

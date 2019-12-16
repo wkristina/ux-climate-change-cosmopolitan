@@ -90,7 +90,7 @@ class SeaLevel extends Component {
       <div className="two column grid">
         <div className="row">
           <div className="six wide column" >
-            <h2>And these are the consquences...</h2>
+            <h2>And these are the consequences...</h2>
             <div className="ui divider"></div>
             <br/>
           <p>Fast fashion is a business model that promotes rapid production of cheap clothing to meet the most recent fashion trends. Quality and durability have been pushed aside in favour of cheap clothing. The devastating truth to this is that it has lead to enormous quantities of clothing ending up in landfills.</p>
@@ -138,8 +138,8 @@ class SeaLevel extends Component {
   <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
   <div className="two wide column"></div>
   <div class="ten wide column" style={{textAlign: "center"}}>
-  <h2 className="ui header">But it also works the other way around...</h2>
-    <div class="ui pink segment" style={{fontWeight:"bold"}}>
+  <h2 className="ui header" style={{fontFamily:"Century Gothic"}}>But it also works the other way around...</h2>
+    <div class="ui pink segment" style={{fontWeight:"bold", fontFamily:"Century Gothic"}}>
     Ice is melting due to high temperature. The sea level is rising. If we don't prevent this, we gon' drown, baby.
     So wake up!
     <p>Use the compare boxes below to see the drastic differences between two different years (1880-2013!)</p>

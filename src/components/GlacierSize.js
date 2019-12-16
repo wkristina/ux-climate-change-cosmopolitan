@@ -75,9 +75,9 @@ class GlacierSize extends Component {
   <div class="top aligned row">
     <img src="https://lh3.googleusercontent.com/RsqeFh3GkisLTySL4yXu2ai45wn0p32oWhSLIkcZdiTBb7me7W1z0v1ky547yIfDbTbbOreKsh07hcc_JWstvthbLEn4xqn2iNGw7vQjsdV3CIzFLlbKe0VcVNvpYJm4ZBXrxSI3W4tzKNczUsOrKOP5ZGQ23Oh4g82t48SFG7LzRVTzt5xEIvLBg6Niqy0_sSisZwjUXOJlKFoZ0GFJsjH9f-ZJCWDQ7NcDa4D-z9hn1Y38IBWApgYXUNmexStn4sIF8Et75P-2nNHvjK8bTFdDExHV2TtmEnIUJpM93Sf5KZDRtIemYQznJkyKU0sVJR0SHcy9tJyCfnbbiWTgjJKrMB_lq3loyCdmra3olAEeRl0mgUCdTbEQLkK-wsZ64akNKvvU3CsaDQoNJbjTmD4PTE5ChtQNCydJIpeTBmtCOyvlDBrZtOGxTbDV7X4Y16DSrqPLPewXjHrV02alphQXLwWCp83bdw9PWmdV04wlk2_6sjq6kRL3husJnPOHGfWMkKZZUXA_2sVwVeES_FzZbq1F1wIBHSg6ge7ZnVmm_U-x20CNjsrOCIQvSV16Og3wKBNwEQwkN4vXTONKykDqGE1RiSdQ2mDe1q53McOfTsAs1JFs1ohGcgI7dnlxk_ioZBoUNnYKm5Dx8oxBZgCTBdW3nQsuWgow24rqAHw-6bMttZJT7RpOJCPtzhmPrRB0JJZPebzxRp2uMTCywnbZC_t8vi8Lf3dwUNXenCG0XIRc=w1348-h525-no" className="ui image" width="100%"/>
   </div>
-  <div class="middle aligned row" >
+  <div class="middle aligned row">
     <div class="ui inverted blue segment" >
-      <h2 class="ui header">
+      <h2 class="ui header" style={{fontFamily:"Century Gothic"}}>
           Do we even have to say anything? Look at this cutie being sad! <br/>
           The reason for his sadness is the ongoing destruction of his habitat. <br/>
           Check out below how severe it really is!
@@ -87,7 +87,7 @@ class GlacierSize extends Component {
   <div class="middle aligned row" style={{backgroundColor:"#CAE3E8"}}> 
   <div className="two wide column"></div>
   <div class="ten wide column" style={{textAlign: "center"}}>
-    <div class="ui blue segment" style={{fontWeight:"bold"}}>
+    <div class="ui blue segment" style={{fontWeight:"bold", fontFamily:"Century Gothic"}}>
     Ice is melting due to rising temperature. That means that the home of thousands of living beings are endangered!
     Do you want to see how much really changed in the last century?
     <p>Use the compare boxes below to see the drastic differences between two different years from 1945-2014!</p>
@@ -126,7 +126,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
 </div>
 <div class="middle aligned row" >
     <div class="ui inverted blue segment" >
-      <h2 class="ui header">
+      <h2 class="ui header" style={{fontFamily:"Century Gothic"}}>
           This cannot continue! <br/>
           We need to change our behavior drastically,
           in order to not have more sad babies like these:

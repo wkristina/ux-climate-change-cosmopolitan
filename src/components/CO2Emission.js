@@ -116,7 +116,7 @@ class CO2Emission extends Component {
             </div>
             <div className="ten wide column" style={{paddingRight:"0px"}}>
           <div class="ui divider"></div>
-          <p style={{fontFamily:"Georgia", fontSize: "16px"}}>"Where DOES it end? I can't be silent any longer...<span style={{color: "#ff6600"}}>WE MUST </span>stop the destruction and senseless slaughter of all that gives us life: <span style={{color: "#ff6600"}}>RAIN FORESTS AND OCEANS</span>. We cannot afford to lose one more acre of forest, we can't take any more storms and radioactive waste."</p>
+          <p style={{fontFamily:"Century Gothic", fontSize: "16px"}}>"Where DOES it end? I can't be silent any longer...<span style={{color: "#ff6600"}}>WE MUST </span>stop the destruction and senseless slaughter of all that gives us life: <span style={{color: "#ff6600"}}>RAIN FORESTS AND OCEANS</span>. We cannot afford to lose one more acre of forest, we can't take any more storms and radioactive waste."</p>
           
           </div>
      </div>
@@ -130,8 +130,8 @@ class CO2Emission extends Component {
   <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
   <div className="two wide column"></div>
   <div class="ten wide column" style={{textAlign: "center"}}>
-    <h2 className="ui header">Why are your favorites doing all of this, you may ask...this is why:</h2>
-    <div class="ui pink segment" style={{fontWeight:"bold"}}>
+    <h2 className="ui header" style={{fontFamily:"Century Gothic"}}>Why are your favorites doing all of this, you may ask...this is why:</h2>
+    <div class="ui pink segment" style={{fontWeight:"bold", fontFamily:"Century Gothic"}}>
     Co2 emissions have been <span style={{color: "#ff6600"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
     Give it a try and compare the data from two different years between <span style={{color: "#ff6600"}}>1751 & 2014</span> below!
     (Carbon emissions in metric tons)
