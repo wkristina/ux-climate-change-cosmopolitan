@@ -4,6 +4,7 @@ import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Label,
   } from 'recharts';
 import { Link } from 'react-router-dom';
+import GlacierData from '../json/Dataset3_Glaciers Size';
 
 class GlacierSize extends Component {
     state = { 
@@ -20,13 +21,19 @@ class GlacierSize extends Component {
      }
 
     async componentDidMount() {
-        const url = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0 ";
+        const url = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0";
         const response = await fetch(url);
         const data = await response.json();
 
         this.setState({
             glacierChange: data
         })
+
+        if (data === undefined){
+          this.setState({
+              glacierChange: GlacierData
+          })
+        }
       }
 
       handleInputFirst  = Year => {

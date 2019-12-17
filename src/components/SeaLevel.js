@@ -4,6 +4,7 @@ import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
   } from 'recharts';
 import { Link } from 'react-router-dom';
+import SeaData from '../json/Dataset4_Sea Level ';
 
 
 class SeaLevel extends Component {
@@ -25,7 +26,7 @@ class SeaLevel extends Component {
         const response = await fetch(url);
         const data = await response.json();
         let filtered =[];
-    for (let i = 0; i < data.length; i++){
+      for (let i = 0; i < data.length; i++){
       filtered.push(data[i].Time);
       let date = new Date(filtered[i]);
       data[i].Time = date.getFullYear();  
@@ -33,7 +34,20 @@ class SeaLevel extends Component {
         this.setState({
             seaLevelChange: data
         })
+
+        if (data === undefined){
+          let filtered =[];
+          for (let i = 0; i < SeaData.length; i++){
+          filtered.push(SeaData[i].Time);
+          let date = new Date(filtered[i]);
+          SeaData[i].Time = date.getFullYear(); 
+        }
+        this.setState({
+          seaLevelChange: SeaData
+      })
+
       }
+    }
 
       handleInputFirst  = Time => {
         let index = this.state.seaLevelChange.findIndex(

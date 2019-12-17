@@ -4,6 +4,7 @@ import {
   } from 'recharts';
   import { Link }  from 'react-router-dom';
 import CompareBoxes from './CompareBoxes.js';
+import Co2Data from '../json/Dataset1_Global CO2 Emissions from Fossil Fuels'
 
 class CO2Emission extends Component {
     state = { 
@@ -22,6 +23,12 @@ class CO2Emission extends Component {
         const response = await fetch(url);
         const data = await response.json();
         this.setState({emissions: data});
+
+        if (data === undefined){
+          this.setState({
+            emissions: Co2Data
+          })
+        }
       }
       
       handleInputFirst  = Year => {

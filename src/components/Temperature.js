@@ -4,6 +4,7 @@ import {
   } from 'recharts';
 import CompareBoxes from './CompareBoxes.js';
 import { Link } from 'react-router-dom';
+import TemperatureData from '../json/Dataset2_Global Temperature Time Series.json';
 
 class Temperature extends Component {
     state = { 
@@ -23,6 +24,12 @@ class Temperature extends Component {
         this.setState({
             temperatureChange: data.reverse()
         })
+
+        if (data === undefined){
+          this.setState({
+            temperatureChange: TemperatureData.reverse()
+          })
+        }
       }
       
       handleInputFirst  = Year => {
