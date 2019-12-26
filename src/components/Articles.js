@@ -5,7 +5,7 @@ class Articles extends Component {
     state = {  }
     render() { 
         return (   
-        <div className="container" style={{backgroundColor: "#FEDDD6"}} id="wrapper">
+        <div style={{backgroundColor: "#FEDDD6"}} id="wrapper">
            <div class="ui pink inverted segment" id="question">
             <h1>It's everywhere...of course you've heard of that big thing: CLIMATE CHANGE.</h1>  
              

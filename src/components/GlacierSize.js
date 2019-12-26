@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CompareBoxes from './CompareBoxes.js';
+import CompareBoxesPopUp from './CompareBoxesPopUp.js';
 import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Label,
   } from 'recharts';
@@ -70,7 +70,7 @@ class GlacierSize extends Component {
       }
 
     render() { 
-        let box;
+      let box;
         if (this.state.validityCheck === true){
             box =  <div style={{backgroundColor:"#CAE3E8"}}>
         <p>{this.state.indexYear1}: <span style={{color: "#ff0080"}}>{this.state.glacierChange[this.state.index1]["Mean cumulative mass balance"]}</span> | <span style={{color: "#ff6600"}}>{this.state.glacierChange[this.state.index1]["Number of observations"]}</span></p>
@@ -119,12 +119,13 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
   <div class="middle aligned row" style={{backgroundColor:"#CAE3E8"}}> 
   <div class="column"></div>
   <div class="column">
-  <CompareBoxes
+  <CompareBoxesPopUp
                 handleInputFirst={this.handleInputFirst}
                 handleInputSecond={this.handleInputSecond}
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
-                year2={this.state.tempIndexYear2}/>
+                year2={this.state.tempIndexYear2}
+                />
                 <br/>
                 <div className="ui divider"></div>
   <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/celeb" style={{color: "#ff0080"}}>C02 emissions</Link>!</p>
