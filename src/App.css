@@ -118,12 +118,6 @@ h3, h1, p, input, div, span{
   text-align: center;
 }
 
-#leftBottomLinkColomn{
-  padding-bottom: 100px;
-  padding-left: 200px;
-  text-align: center;
-}
-
 #rightTopLinkColomn{
 padding-top: 100px;
 padding-right: 200px;
@@ -194,7 +188,6 @@ font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant G
   font-size: 18px;
 }
 
-#logo{
-  color: fuchsia;
-  font-size: large;
+#linkPicture:hover{
+  transform: scale(1.3);
 }
