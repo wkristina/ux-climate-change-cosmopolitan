@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component}  from "react";
 import {
   HashRouter as Router,
   Switch,
@@ -15,11 +15,16 @@ import NavBar from './components/NavBar';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
-export default function App() {
-  function componentDidMount() {
-    document.title = "Cosmopolitan - Climate Change";
+class App extends Component {
+  state={
+    glacierChange: []
   }
-  componentDidMount();
+ async componentDidMount() {
+    document.title = "Cosmopolitan - Climate Change";
+    
+      
+  }
+  render() { 
   return (
     <div>
     <Router>
@@ -36,7 +41,7 @@ export default function App() {
             <DummyArticle />
           </Route>
           <Route path="/nature">
-            <GlacierSize/>
+            <GlacierSize />
           </Route>
           <Route path="/celeb">
             <CO2Emission />
@@ -53,4 +58,5 @@ export default function App() {
     </div>
   );
 }
-
+}
+export default App;

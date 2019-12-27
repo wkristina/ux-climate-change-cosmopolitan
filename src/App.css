@@ -39,7 +39,7 @@ a:hover{
   color: black;
 }
 
-h3, h1, p, input{
+h3, h1, p, input, div, span{
   font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
 
   text-align: center;

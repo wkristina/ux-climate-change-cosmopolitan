@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CompareBoxes from './CompareBoxes.js';
+import CompareBoxesPopUp from './CompareBoxesPopUp.js';
 import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
   } from 'recharts';
@@ -18,7 +18,8 @@ class SeaLevel extends Component {
         indexYear1: 0,
         indexYear2: 0,
         tempIndexYear1: 0,
-        tempIndexYear2: 0
+        tempIndexYear2: 0,
+        open: false
      }
 
     async componentDidMount() {
@@ -77,9 +78,14 @@ class SeaLevel extends Component {
           this.setState({index2: this.state.tempIndex2});
           this.setState({indexYear1: this.state.tempIndexYear1});
           this.setState({indexYear2: this.state.tempIndexYear2});
+          this.setState({open: true});
         } else {
           alert("Year could not be found. Please enter a valid year between 1880 and 2013.");
         }
+      }
+
+      closeModal=()=> {
+        this.setState({ open: false });
       }
 
     render() { 
@@ -87,6 +93,8 @@ class SeaLevel extends Component {
         if (this.state.validityCheck === true){
         box =  
         <div>
+        <p>These are the results for the years you entered!</p>
+        <p>[Reconstructed Global Mean Sea Level (GMSL) in mm]</p>
         <p>{this.state.indexYear1}: {this.state.seaLevelChange[this.state.index1].GMSL}</p>
         <p>{this.state.indexYear2}: {this.state.seaLevelChange[this.state.index2].GMSL}</p> 
         </div>
@@ -96,8 +104,10 @@ class SeaLevel extends Component {
               <div class="ui centered three column grid">
   <div class="top aligned row">
     <img src="https://lh3.googleusercontent.com/RdMoDa4GJmzXjhsq9HJtAkwKToSdmmSgIUq7DDECD9FaL-RSdpBUnSdF-SiKv55yxTd_EutwYuYTKQxpgBHnXg-ueCTSuiUHtSp1NE3YvNxsoN7GZkGa-zPUFnrwWZuVWnFMQMaLTB9xSBCAEKQbiZ7l1No6LFMyb0xbbwRwc56VujIeZgLx3UQr4re2h5nYMkZHEjihiwZJw0pLLVrLrWQbed6_Lk1JMf-Tm_oCcuk9LMofsNMk4-IIMJzEr1UYjHkNrl604nXq9TgLqK_O5Epvki-yX2qChE5GSsAV1JVGQNnauLgVwnbLj3YmnQHs9tcwQC0T__RdWkDbWXpuvLIZz2zzQ-2EaIA_qNtze2YQztYwqKJTnDh96zsl1SVRpr2JJR501FVJJmKxUZ3puRup4140qbhU8gQhd0x7C7unD7AMixPJLT_9B8E7n8kFywQ-mu9DkCRpJCXfF-1MDpxXNe55GHajWROHQj_55Y2nukQ4zCfiFL1WwvK1vf60WYuEsVjnmLMopnsRlzrj7VPe9SIf9Etx8AgnNlv60zdaOBKTD8HPxFJx3G3f_vuW9Md02geG7mWdjGhy-TUzX9GXrmhZCBbdobJynImMDQ3Sqb3Si5rFKtxYtupBMQJWaGQpDeB2V0CHskqESY6wd8k2xPdyG0WYh32f9TkVwa8xs9ItOG2o7LnD5U6uwvYDaEhu5iIHJvIk0RxbWWiSqfQ6HKjUKjhhYxPeZlAujp-5mrai=w1920-h330-no" className="ui image" width= "100%"/>
-    
   </div>
+  
+ 
+
   <div class="middle aligned row">
     <div className="one wide column"></div>
     <div class="seven wide column">
@@ -158,7 +168,6 @@ class SeaLevel extends Component {
     So wake up!
     <p>Use the compare boxes below to see the drastic differences between two different years (1880-2013!)</p>
     [Reconstructed Global Mean Sea Level (GMSL) in mm]
-    {box}
     </div>
     <div className="graphBox">
   <LineChart width={800} height={400} data={this.state.seaLevelChange}
@@ -177,12 +186,15 @@ class SeaLevel extends Component {
   <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
   <div class="column"></div>
   <div class="column">
-  <CompareBoxes
+  <CompareBoxesPopUp
                 handleInputFirst={this.handleInputFirst}
                 handleInputSecond={this.handleInputSecond}
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
-                year2={this.state.tempIndexYear2}/>
+                year2={this.state.tempIndexYear2}
+                box={box}
+                open={this.state.open}
+                closeModal={this.closeModal}/>
                 <br/>
   <div className="ui divider"></div>
   <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/celeb" style={{color: "#ff0080"}}>C02 emissions</Link>!</p>

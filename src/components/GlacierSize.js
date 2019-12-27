@@ -17,7 +17,8 @@ class GlacierSize extends Component {
         indexYear1: 0,
         indexYear2: 0,
         tempIndexYear1: 0,
-        tempIndexYear2: 0
+        tempIndexYear2: 0,
+        open: false
      }
 
     async componentDidMount() {
@@ -64,18 +65,26 @@ class GlacierSize extends Component {
           this.setState({index2: this.state.tempIndex2});
           this.setState({indexYear1: this.state.tempIndexYear1});
           this.setState({indexYear2: this.state.tempIndexYear2});
+          this.setState({ open: true });
         } else {
           alert("Year could not be found. Please enter a valid year between 1945 and 2014.");
         }
       }
 
+      closeModal=()=> {
+        this.setState({ open: false });
+      }
+
     render() { 
       let box;
-        if (this.state.validityCheck === true){
-            box =  <div style={{backgroundColor:"#CAE3E8"}}>
+      if (this.state.validityCheck===true){
+      box =  <div>
+        <p>These are the results for the years you entered!</p>
+        <p><span style={{color: "#ff0080"}}>Average mass of measured glacier</span> & <span style={{color: "#ff6600"}}>Number of glaciers observed</span></p>
         <p>{this.state.indexYear1}: <span style={{color: "#ff0080"}}>{this.state.glacierChange[this.state.index1]["Mean cumulative mass balance"]}</span> | <span style={{color: "#ff6600"}}>{this.state.glacierChange[this.state.index1]["Number of observations"]}</span></p>
         <p>{this.state.indexYear2}: <span style={{color: "#ff0080"}}>{this.state.glacierChange[this.state.index2]["Mean cumulative mass balance"]}</span> | <span style={{color: "#ff6600"}}>{this.state.glacierChange[this.state.index2]["Number of observations"]}</span></p>
-          </div>}
+        </div>;
+      }
         return ( 
             <div id="wrapper">
             <div class="ui centered three column grid">
@@ -99,7 +108,7 @@ class GlacierSize extends Component {
     Do you want to see how much really changed in the last century?
     <p>Use the compare boxes below to see the drastic differences between two different years from 1945-2014!</p>
     <span style={{color: "#ff0080"}}>Average mass of measured glacier</span> & <span style={{color: "#ff6600"}}>Number of glaciers observed</span>
-    {box}
+    
     </div>
     <div style={{backgroundColor:"#CAE3E8", paddingRight: "100px"}}>
     <LineChart width={800} height={400} data={this.state.glacierChange}
@@ -125,6 +134,9 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
                 year2={this.state.tempIndexYear2}
+                box={box}
+                open={this.state.open}
+                closeModal={this.closeModal}
                 />
                 <br/>
                 <div className="ui divider"></div>
