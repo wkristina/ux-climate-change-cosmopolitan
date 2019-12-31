@@ -57,8 +57,9 @@ h3, h1, p, input, div, span{
 #wrapper{
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
+  position: relative;
   min-width: 500px;
+  min-height: 100%
 }
 
 .loadingContainer{

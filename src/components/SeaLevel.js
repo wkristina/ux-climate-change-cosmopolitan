@@ -170,7 +170,7 @@ class SeaLevel extends Component {
     Ice is melting due to high temperature. The sea level is rising. If we don't prevent this, we gon' drown, baby.
     So wake up!
     <p>Use the compare boxes below to see the drastic differences between two different years (1880-2013!)</p>
-    [Reconstructed Global Mean Sea Level (GMSL) in mm]
+    <p style={{fontWeight:"bolder"}}>[Reconstructed Global Mean Sea Level (GMSL) in mm]</p>
     </div>
     <div className="graphBox">
   <LineChart width={800} height={400} data={this.state.seaLevelChange}
@@ -200,7 +200,7 @@ class SeaLevel extends Component {
                 closeModal={this.closeModal}/>
                 <br/>
   <div className="ui divider"></div>
-  <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/celeb" style={{color: "#ff0080"}}>C02 emissions</Link>!</p>
+  <p style={{fontSize: "18px"}}>Hooked? Read more about the fast shrinking of <Link to="/nature" style={{color: "#ff0080"}}>glaciers</Link>!</p>
   </div>
   <div class="column"></div>
 </div>
