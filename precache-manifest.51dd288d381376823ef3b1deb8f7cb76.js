@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bd8b079678be6233164eb74ed1764f6",
+    "revision": "3748551d67a885c892de0b4c2442e343",
     "url": "/ux-climate-change-cosmopolitan/index.html"
   },
   {
-    "revision": "baa75d7b14d171922652",
-    "url": "/ux-climate-change-cosmopolitan/static/css/2.df67cc6c.chunk.css"
+    "revision": "98b845d6168eeb8cb2f2",
+    "url": "/ux-climate-change-cosmopolitan/static/css/2.14c7ec71.chunk.css"
   },
   {
-    "revision": "57899e21057c3d588133",
-    "url": "/ux-climate-change-cosmopolitan/static/css/main.475bbf70.chunk.css"
+    "revision": "364cd1844bf5b1b4aba4",
+    "url": "/ux-climate-change-cosmopolitan/static/css/main.1e26d229.chunk.css"
   },
   {
-    "revision": "baa75d7b14d171922652",
-    "url": "/ux-climate-change-cosmopolitan/static/js/2.76fca6cb.chunk.js"
+    "revision": "98b845d6168eeb8cb2f2",
+    "url": "/ux-climate-change-cosmopolitan/static/js/2.8654eb75.chunk.js"
   },
   {
-    "revision": "57899e21057c3d588133",
-    "url": "/ux-climate-change-cosmopolitan/static/js/main.af17bd65.chunk.js"
+    "revision": "364cd1844bf5b1b4aba4",
+    "url": "/ux-climate-change-cosmopolitan/static/js/main.375c3d3f.chunk.js"
   },
   {
     "revision": "110a99324e1de4f11ab1",
