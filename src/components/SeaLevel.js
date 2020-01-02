@@ -6,7 +6,6 @@ import {
 import { Link } from 'react-router-dom';
 import SeaData from '../json/Dataset4_Sea Level ';
 
-
 class SeaLevel extends Component {
     state = { 
         seaLevelChange: [],
@@ -22,32 +21,29 @@ class SeaLevel extends Component {
         open: false
      }
 
-    async componentDidMount() {
-        const url = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0 ";
-        const response = await fetch(url);
-        const data = await response.json();
+     async componentDidMount() {
+      const url3 = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0 ";
+      const response3 = await fetch(url3);
+      const data3 = await response3.json();
+      let filtered =[];
+    for (let i = 0; i < data3.length; i++){
+    filtered.push(data3[i].Time);
+    let date = new Date(filtered[i]);
+    data3[i].Time = date.getFullYear();  
+  }
+      this.setState({seaLevelChange: data3})  
+  
+      if (data3 === undefined){
         let filtered =[];
-      for (let i = 0; i < data.length; i++){
-      filtered.push(data[i].Time);
-      let date = new Date(filtered[i]);
-      data[i].Time = date.getFullYear();  
+        for (let i = 0; i < SeaData.length; i++){
+        filtered.push(SeaData[i].Time);
+        let date = new Date(filtered[i]);
+        SeaData[i].Time = date.getFullYear(); 
     }
-        this.setState({
-            seaLevelChange: data
-        })
-
-        if (data === undefined){
-          let filtered =[];
-          for (let i = 0; i < SeaData.length; i++){
-          filtered.push(SeaData[i].Time);
-          let date = new Date(filtered[i]);
-          SeaData[i].Time = date.getFullYear(); 
-        }
-        this.setState({
-          seaLevelChange: SeaData
-      })
-
-      }
+   this.setState({
+        seaLevelChange: SeaData
+    })
+    }
     }
 
       handleInputFirst  = Time => {
@@ -114,10 +110,8 @@ class SeaLevel extends Component {
         <div className="row">
           <div className="six wide column" >
             <h2>And these are the consequences...</h2>
-            <div className="ui divider"></div>
-            <br/>
+            <div className="ui divider" style={{marginBottom: "30px"}}></div>
           <p>Fast fashion is a business model that promotes rapid production of cheap clothing to meet the most recent fashion trends. Quality and durability have been pushed aside in favour of cheap clothing. The devastating truth to this is that it has lead to enormous quantities of clothing ending up in landfills.</p>
-          <br/>
           <p><span style={{fontWeight:"bold"}}>10.46 million tons of clothing</span> ended up in US landfills in 2014.</p>
           </div>
           
@@ -146,13 +140,12 @@ class SeaLevel extends Component {
    <p style={{color:"#59ADAF", fontWeight:"bold"}}>1989         vs.         2014</p>
     </div>
     <div class="column">
-    <br/>
-    <br/>
-    <p style={{color:"#59ADAF", fontWeight:"bold"}}>Almost the entire Aral sea has now dried up because the rivers leading to it were redirected to maintain cotton plantations</p>
-   <br/>
+    
+    <p style={{color:"#59ADAF", fontWeight:"bold", marginTop:"40px"}}>Almost the entire Aral sea has now dried up because the rivers leading to it were redirected to maintain cotton plantations</p>
+  
    <p style={{color:"#59ADAF", fontWeight:"bold"}}>Left is only arid desert...</p>
-   <br/>
-   <p style={{color:"#59ADAF", fontWeight:"bold"}}>Is fashion really worth all this destruction?</p>
+  
+   <p style={{color:"#59ADAF", fontWeight:"bold", marginTop:"40px"}}>Is fashion really worth all this destruction?</p>
     </div>
   </div>
 </div>
@@ -198,8 +191,7 @@ class SeaLevel extends Component {
                 box={box}
                 open={this.state.open}
                 closeModal={this.closeModal}/>
-                <br/>
-  <div className="ui divider"></div>
+  <div className="ui divider" style={{marginTop: "40px"}}></div>
   <p style={{fontSize: "18px"}}>Hooked? Read more about the fast shrinking of <Link to="/nature" style={{color: "#ff0080"}}>glaciers</Link>!</p>
   </div>
   <div class="column"></div>

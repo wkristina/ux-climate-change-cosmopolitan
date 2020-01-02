@@ -6,6 +6,7 @@ import {
 import { Link } from 'react-router-dom';
 import GlacierData from '../json/Dataset3_Glaciers Size';
 
+
 class GlacierSize extends Component {
     state = { 
         glacierChange: [],
@@ -21,21 +22,19 @@ class GlacierSize extends Component {
         open: false
      }
 
-    async componentDidMount() {
-        const url = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0";
-        const response = await fetch(url);
-        const data = await response.json();
-
+     async componentDidMount() {
+    
+      const url2 = "https://my.api.mockaroo.com/glaciersize.json?key=8eb9e6f0";
+      const response2 = await fetch(url2);
+      const data2 = await response2.json();
+      this.setState({glacierChange: data2});
+  
+      if (data2 === undefined){
         this.setState({
-            glacierChange: data
-        })
-
-        if (data === undefined){
-          this.setState({
-              glacierChange: GlacierData
+             glacierChange: GlacierData
           })
         }
-      }
+    }
 
       handleInputFirst  = Year => {
         let index = this.state.glacierChange.findIndex(
@@ -110,7 +109,8 @@ class GlacierSize extends Component {
     <span style={{color: "#ff0080"}}>Average mass of measured glacier</span> & <span style={{color: "#ff6600"}}>Number of glaciers observed</span>
     
     </div>
-    <div style={{backgroundColor:"#CAE3E8", paddingRight: "100px"}}>
+    <div className="graphBoxBlue">
+          
     <LineChart width={800} height={400} data={this.state.glacierChange}
 margin={{top: 5, right: 20, left: 30, bottom: 5}} >
 <XAxis dataKey="Year"/>
@@ -120,6 +120,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
 <Line type="monotone" dataKey="Mean cumulative mass balance" stroke="#ff0080"dot={false}/>
 <Line type="monotone" dataKey="Number of observations" stroke="#ff6600" dot={false} />
 </LineChart>
+
       </div>
      
   </div>
@@ -138,8 +139,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
                 open={this.state.open}
                 closeModal={this.closeModal}
                 />
-                <br/>
-                <div className="ui divider"></div>
+                <div className="ui divider" style={{marginTop: "40px"}}></div>
   <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/celeb" style={{color: "#ff0080"}}>C02 emissions</Link>!</p>
   </div>
   <div class="column"></div>

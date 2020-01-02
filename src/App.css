@@ -101,6 +101,14 @@ h3, h1, p, input, div, span{
 .graphBox{
   background-color: #FEDDD6;
   padding-right: 100px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.graphBoxBlue{
+  background-color: #CAE3E8;
+  padding-right: 100px;
+  padding-left: 20px;
   text-align: center;
 }
 
@@ -165,6 +173,7 @@ display:block;
 color: #EF4206;
 font-size: 20px;
 font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+display: inline-block
 }
 
 .subtitle{

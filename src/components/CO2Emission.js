@@ -18,18 +18,18 @@ class CO2Emission extends Component {
         year1: 1751,
         year2: 2014
      }
-    async componentDidMount() {
-        const url = "https://my.api.mockaroo.com/co2.json?key=8eb9e6f0";
-        const response = await fetch(url);
-        const data = await response.json();
-        this.setState({emissions: data});
+     async componentDidMount() {
+      const url1 = "https://my.api.mockaroo.com/co2.json?key=8eb9e6f0";
+      const response1 = await fetch(url1);
+      const data1 = await response1.json();
+      this.setState({emissions: data1});
 
-        if (data === undefined){
-          this.setState({
+         if (data1 === undefined){
+            this.setState({
             emissions: Co2Data
-          })
-        }
-      }
+           })
+         }
+       }
       
       handleInputFirst  = Year => {
         let index = this.state.emissions.findIndex(
@@ -91,8 +91,6 @@ class CO2Emission extends Component {
           <div className="ui segments">
           <div className="ui inverted green segment">
             <span className="title">Get inspired by these amazing celebrities championing climate change</span>
-            <br/>
-            <br/>
             <span className="subtitle">we stan these legends</span>
           </div>
           <div className="ui inverted brown segment">
@@ -168,8 +166,7 @@ margin={{top: 5, right: 20, left: 50, bottom: 5}} className="graphBox">
                 compare={this.compare}
                 year1={this.state.tempIndexYear1}
                 year2={this.state.tempIndexYear2}/>
-  <br/>
-  <div className="ui divider"></div>
+  <div className="ui divider" style={{marginTop: "40px"}}></div>
   <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080"}}>sea levels</Link>!</p>
   </div>
   <div class="column"></div>

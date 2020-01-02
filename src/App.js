@@ -12,18 +12,14 @@ import SeaLevel from './components/SeaLevel';
 import NavBar from './components/NavBar';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
-
 class App extends Component {
   state={
     glacierChange: [],
-    seaLevelChange: [],
-    emissions: []
+    seaLevelChange: []
   }
 
  async componentDidMount() {
     document.title = "Cosmopolitan - Climate Change";
-    
-      
   }
 
   render() { 
