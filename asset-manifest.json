@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ux-climate-change-cosmopolitan/static/css/main.1e26d229.chunk.css",
-    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.375c3d3f.chunk.js",
-    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.375c3d3f.chunk.js.map",
+    "main.css": "/ux-climate-change-cosmopolitan/static/css/main.011852cf.chunk.css",
+    "main.js": "/ux-climate-change-cosmopolitan/static/js/main.c2276985.chunk.js",
+    "main.js.map": "/ux-climate-change-cosmopolitan/static/js/main.c2276985.chunk.js.map",
     "runtime-main.js": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js",
     "runtime-main.js.map": "/ux-climate-change-cosmopolitan/static/js/runtime-main.3b39d29d.js.map",
     "static/css/2.14c7ec71.chunk.css": "/ux-climate-change-cosmopolitan/static/css/2.14c7ec71.chunk.css",
     "static/js/2.8654eb75.chunk.js": "/ux-climate-change-cosmopolitan/static/js/2.8654eb75.chunk.js",
     "static/js/2.8654eb75.chunk.js.map": "/ux-climate-change-cosmopolitan/static/js/2.8654eb75.chunk.js.map",
     "index.html": "/ux-climate-change-cosmopolitan/index.html",
-    "precache-manifest.51dd288d381376823ef3b1deb8f7cb76.js": "/ux-climate-change-cosmopolitan/precache-manifest.51dd288d381376823ef3b1deb8f7cb76.js",
+    "precache-manifest.d46d28c449aec5566a7a74ab283e6901.js": "/ux-climate-change-cosmopolitan/precache-manifest.d46d28c449aec5566a7a74ab283e6901.js",
     "service-worker.js": "/ux-climate-change-cosmopolitan/service-worker.js",
     "static/css/2.14c7ec71.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/2.14c7ec71.chunk.css.map",
-    "static/css/main.1e26d229.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/main.1e26d229.chunk.css.map",
+    "static/css/main.011852cf.chunk.css.map": "/ux-climate-change-cosmopolitan/static/css/main.011852cf.chunk.css.map",
     "static/media/semantic.min.css": "/ux-climate-change-cosmopolitan/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.3b39d29d.js",
     "static/css/2.14c7ec71.chunk.css",
     "static/js/2.8654eb75.chunk.js",
-    "static/css/main.1e26d229.chunk.css",
-    "static/js/main.375c3d3f.chunk.js"
+    "static/css/main.011852cf.chunk.css",
+    "static/js/main.c2276985.chunk.js"
   ]
 }
