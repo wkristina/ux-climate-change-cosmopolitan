@@ -160,9 +160,9 @@ class SeaLevel extends Component {
   <div class="ten wide column" style={{textAlign: "center"}}>
   <h2 className="ui header" style={{fontFamily:"Century Gothic"}}>But it also works the other way around...</h2>
     <div class="ui pink segment" style={{fontWeight:"bold", fontFamily:"Century Gothic"}}>
-    Ice is melting due to high temperature. The sea level is rising. If we don't prevent this, we gon' drown, baby.
+    Ice is melting due to high temperature. <span style={{color: "#ff6600"}}>The sea level is rising</span>. If we don't prevent this, we gon' drown, baby.
     So wake up!
-    <p>Use the compare boxes below to see the drastic differences between two different years (1880-2013!)</p>
+    <p>Use the compare boxes below to see the drastic differences between two different years (<span style={{color: "#ff6600"}}>1880-2013</span>)!</p>
     <p style={{fontWeight:"bolder"}}>[Reconstructed Global Mean Sea Level (GMSL) in mm]</p>
     </div>
     <div className="graphBox">
@@ -192,7 +192,7 @@ class SeaLevel extends Component {
                 open={this.state.open}
                 closeModal={this.closeModal}/>
   <div className="ui divider" style={{marginTop: "40px"}}></div>
-  <p style={{fontSize: "18px"}}>Hooked? Read more about the fast shrinking of <Link to="/nature" style={{color: "#ff0080"}}>glaciers</Link>!</p>
+  <p style={{fontSize: "18px"}}>Hooked? Read more about the fast shrinking of <Link to="/nature" style={{color: "#ff0080", fontWeight: "bold"}}>glaciers</Link>!</p>
   </div>
   <div class="column"></div>
 </div>

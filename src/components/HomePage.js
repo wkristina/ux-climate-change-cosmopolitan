@@ -10,7 +10,7 @@ class HomePage extends Component {
     <img src="https://lh3.googleusercontent.com/g4ysxYHUBIhjpLVvEP3nShdX7b2D0OwUelOtQu5G88LjfzRJrdIE4LX1hG2MCHA2X9s9FefxP6XgSMrg6AccR4DClAnp4zahOV6uhbrDOhxDrEt629KHG0HvhZqE7eZqXIcSLvBUuBYHaLfU_VC7X2MrC-Igvq_twmwWYhD7ub9xTiKaVtB2l4BDXgCGbk7Xgt9klPPThSlwW5RqhwHxDPt0Jx4RZ7udkSvcIkqxnkzv5s9hprXHCkiJvctS-qrEryJ54wWQT2dq1mC3gG-OSzp4G9ZsUzZDva5tJYRqT0e2xv9ccnzZMWjOiEFllR3bojatjRkMVdIdg5eSOGbDoDCtwjMz6d7NcUpHO_z0PIgOWjqSeD3-yqW8G2ZUrSwaZbXUrnd8VVnJ33TkxtfZRBoF8ZILRpHprht5IS_UcMJg7YucNbx__klo9UoxGIDt1Lc9w6Vscd0TcKxahdbFdit9-BaDcokoqj7YbYSO7FL4KVMO4bOqQELJ1xOlFOgr74-1FwmaTvV_-r1MNCAbZEWE-afC8wG8e6zneuprg8CWD1WCZrqVlt4x5VaDszvF3sRizHz7db3gYW5brjgKcyAisjEuJW4uYPmdPHFXTTrbh_QEwVvhBA4PdCHaojrZ5T5UspIoImBWGybuQ16DhZN69_I2-zn9AnVJApQjd9yX4urawtvQwx4yFEjDb6v61WeHiSMWrxjE6zVqBFsr2OEZ3HmJkI75DU4zaakp5bo9dn3u=w1920-h260-no" className="ui image" width= "100%" alt="climate change banner"/>
   </div>
 
-           <div class="ui centered equal width three column grid" style={{marginTop:"20px"}} >
+           <div class="ui centered equal width three column grid" style={{marginTop:"30px"}} >
            <div class="middle aligned row" > 
               <div className="column">
               <h3 class="ui header">

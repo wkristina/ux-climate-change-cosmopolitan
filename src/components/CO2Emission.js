@@ -117,7 +117,7 @@ class CO2Emission extends Component {
      <div className="ui two column grid">
           <div className="row">
             <div className="six wide column" style={{paddingLeft:"0px"}}>
-            <img src="https://lh3.googleusercontent.com/qApUYLi5Q2FfWFsBs7B_-oZ_G6jybElnr2C-Zho5zk1qbUjn5OdwB4UcvlAF8vb9d3sRYdXCGbP0NPUFb5jFG3uWRbP8TjOAGxEqh91wV-mNQwNDueKHHqB2v5QdzkDqhA8P-BiADHGd08IYgsvdj2tvPz-M4mAPFHsDankQxLQelrQuVEGyxMQyxx_1lNAAEd2RqyE8R9JW6iR9urGIlGataPa3xBh_3uwYgHOnpjmVsP9XKOVywXtJflsNoRich_CYIa793u-MJD_hdgrJU7FcepI0XJAX3xXZDwvwkzTKXjcvpZTX2BWbYSX8d51e7GgzrrCijf6q8y4iWk8bbkIKxLulamf2fQ7MWRtGtpXWKTuz1jCYbDp4Zz2-D2bCZDAweWpisN4lvomugTBYkrcf4BROo2m7IVDFsLx6gq6NuENnS-hRxhCkUdKmYA3QvK45qgD1swBcJOPUCLH3h23TgDISQKYFriyD5gY7Efs-Fn-Z_ztlObS1R6Ci7jFIiokBSvB_MTyZAA2cmePDyf1mo0j0tke1FmN5j_ewSIJzsF9ImtpGrjnsl61OnMiAc0L3xzgc1NSIP6EFNnfCmWky8rNzZxX8vvvUP9LRoe9hnafnA9_PyoqVmPE75Zlo-AxJX8abyQ5y1484nQS5ofmePvdq93JWrvKEn9aKxtlDAho81x0Rkd3jBhDHrRRXc6ssZx_MLrPRbIkWyOYp1p9ZVhJj-CvornhTo0rkMPaTm_Yt=w727-h645-no" className="ui medium circular image" alt="Ian Somerhalder"/>
+            <img src="https://lh3.googleusercontent.com/qApUYLi5Q2FfWFsBs7B_-oZ_G6jybElnr2C-Zho5zk1qbUjn5OdwB4UcvlAF8vb9d3sRYdXCGbP0NPUFb5jFG3uWRbP8TjOAGxEqh91wV-mNQwNDueKHHqB2v5QdzkDqhA8P-BiADHGd08IYgsvdj2tvPz-M4mAPFHsDankQxLQelrQuVEGyxMQyxx_1lNAAEd2RqyE8R9JW6iR9urGIlGataPa3xBh_3uwYgHOnpjmVsP9XKOVywXtJflsNoRich_CYIa793u-MJD_hdgrJU7FcepI0XJAX3xXZDwvwkzTKXjcvpZTX2BWbYSX8d51e7GgzrrCijf6q8y4iWk8bbkIKxLulamf2fQ7MWRtGtpXWKTuz1jCYbDp4Zz2-D2bCZDAweWpisN4lvomugTBYkrcf4BROo2m7IVDFsLx6gq6NuENnS-hRxhCkUdKmYA3QvK45qgD1swBcJOPUCLH3h23TgDISQKYFriyD5gY7Efs-Fn-Z_ztlObS1R6Ci7jFIiokBSvB_MTyZAA2cmePDyf1mo0j0tke1FmN5j_ewSIJzsF9ImtpGrjnsl61OnMiAc0L3xzgc1NSIP6EFNnfCmWky8rNzZxX8vvvUP9LRoe9hnafnA9_PyoqVmPE75Zlo-AxJX8abyQ5y1484nQS5ofmePvdq93JWrvKEn9aKxtlDAho81x0Rkd3jBhDHrRRXc6ssZx_MLrPRbIkWyOYp1p9ZVhJj-CvornhTo0rkMPaTm_Yt=w727-h645-no" className="ui medium circular image" alt="Ian Somerhalder" style={{marginTop:"10px"}}/>
             </div>
             <div className="ten wide column" style={{paddingRight:"0px"}}>
           <div class="ui divider"></div>
@@ -126,7 +126,7 @@ class CO2Emission extends Component {
           </div>
      </div>
      <div className="row">
-       <p style={{color: "#ff6600"}}>Ian Somerhalder joined us last year as the Green Man on the Street for 24 Hours of Reality and has founded the Ian Somerhalder Foundation, which focuses on climate change as well as animal rights.</p> 
+       <p style={{color: "#ff6600", marginBottom:"20px"}}>Ian Somerhalder joined us last year as the Green Man on the Street for 24 Hours of Reality and has founded the Ian Somerhalder Foundation, which focuses on climate change as well as animal rights.</p> 
      </div>
      </div>
 </div>
@@ -137,15 +137,15 @@ class CO2Emission extends Component {
   <div class="ten wide column" style={{textAlign: "center"}}>
     <h2 className="ui header" style={{fontFamily:"Century Gothic"}}>Why are your favorites doing all of this, you may ask...this is why:</h2>
     <div class="ui pink segment" style={{fontWeight:"bold", fontFamily:"Century Gothic"}}>
-    Co2 emissions have been <span style={{color: "#ff6600"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
-    Give it a try and compare the data from two different years between <span style={{color: "#ff6600"}}>1751 & 2014</span> below!
-    (Carbon emissions in metric tons)
+    <p>Co2 emissions have been <span style={{color: "#ff6600"}}>rising alarmingly</span> in the last decades, which is dangerous for us and our planet.
+    Give it a try and compare the data from two different years between <span style={{color: "#ff6600"}}>1751 & 2014</span> below!</p>
+    <p style={{fontWeight:"bolder"}}>[Carbon emissions in metric tons]</p>
     </div>
     <div className="graphBox" >
     <BarChart width={800} height={400} data={dataBarChart}
 margin={{top: 5, right: 20, left: 50, bottom: 5}} className="graphBox">
 <CartesianGrid strokeDasharray="3 3"/>
-<Tooltip/> 
+<Tooltip cursor={{fill: "#ffa64d"}}/> 
 <XAxis dataKey="name"/>
 <YAxis/>
 <Legend/>
@@ -167,7 +167,7 @@ margin={{top: 5, right: 20, left: 50, bottom: 5}} className="graphBox">
                 year1={this.state.tempIndexYear1}
                 year2={this.state.tempIndexYear2}/>
   <div className="ui divider" style={{marginTop: "40px"}}></div>
-  <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080"}}>sea levels</Link>!</p>
+  <p style={{fontSize: "18px"}}>Hooked? Read more about the insane rise of <Link to="/style" style={{color: "#ff0080", fontWeight: "bold"}}>sea levels</Link>!</p>
   </div>
   <div class="column"></div>
 </div>
