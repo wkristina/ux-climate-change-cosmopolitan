@@ -120,9 +120,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
 <Line type="monotone" dataKey="Mean cumulative mass balance" stroke="#ff0080"dot={false}/>
 <Line type="monotone" dataKey="Number of observations" stroke="#ff6600" dot={false} />
 </LineChart>
-
       </div>
-     
   </div>
   <div className="two wide column"></div>
   </div>
@@ -167,9 +165,7 @@ margin={{top: 5, right: 20, left: 30, bottom: 5}} >
     </div>
   </div>
 </div>
-        
-     
-            </div>
+</div>
          );
     }
 }

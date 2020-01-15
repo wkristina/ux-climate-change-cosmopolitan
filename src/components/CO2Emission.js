@@ -106,8 +106,8 @@ class CO2Emission extends Component {
     </div>
   </div>
 </div>
-          </div>
-          </div>
+</div>
+</div>
     </div>
    <div className="two wide column"></div> 
   </div>

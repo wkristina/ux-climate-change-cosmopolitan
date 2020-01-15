@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class CompareBoxes extends Component {
-    state = {  }
    
     handleYear = e => {
           this.props.handleInputFirst(e.target.value);

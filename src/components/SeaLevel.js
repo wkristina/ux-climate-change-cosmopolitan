@@ -21,7 +21,7 @@ class SeaLevel extends Component {
         open: false
      }
 
-     async componentDidMount() {
+  async componentDidMount() {
       const url3 = "https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0 ";
       const response3 = await fetch(url3);
       const data3 = await response3.json();
@@ -101,7 +101,6 @@ class SeaLevel extends Component {
   <div class="top aligned row">
     <img src="https://lh3.googleusercontent.com/RdMoDa4GJmzXjhsq9HJtAkwKToSdmmSgIUq7DDECD9FaL-RSdpBUnSdF-SiKv55yxTd_EutwYuYTKQxpgBHnXg-ueCTSuiUHtSp1NE3YvNxsoN7GZkGa-zPUFnrwWZuVWnFMQMaLTB9xSBCAEKQbiZ7l1No6LFMyb0xbbwRwc56VujIeZgLx3UQr4re2h5nYMkZHEjihiwZJw0pLLVrLrWQbed6_Lk1JMf-Tm_oCcuk9LMofsNMk4-IIMJzEr1UYjHkNrl604nXq9TgLqK_O5Epvki-yX2qChE5GSsAV1JVGQNnauLgVwnbLj3YmnQHs9tcwQC0T__RdWkDbWXpuvLIZz2zzQ-2EaIA_qNtze2YQztYwqKJTnDh96zsl1SVRpr2JJR501FVJJmKxUZ3puRup4140qbhU8gQhd0x7C7unD7AMixPJLT_9B8E7n8kFywQ-mu9DkCRpJCXfF-1MDpxXNe55GHajWROHQj_55Y2nukQ4zCfiFL1WwvK1vf60WYuEsVjnmLMopnsRlzrj7VPe9SIf9Etx8AgnNlv60zdaOBKTD8HPxFJx3G3f_vuW9Md02geG7mWdjGhy-TUzX9GXrmhZCBbdobJynImMDQ3Sqb3Si5rFKtxYtupBMQJWaGQpDeB2V0CHskqESY6wd8k2xPdyG0WYh32f9TkVwa8xs9ItOG2o7LnD5U6uwvYDaEhu5iIHJvIk0RxbWWiSqfQ6HKjUKjhhYxPeZlAujp-5mrai=w1920-h330-no" className="ui image" width= "100%" alt="banner highlighting the bad impact of the fashion industry on the climate"/>
   </div>
-  
   <div class="middle aligned row">
     <div className="one wide column">
     </div>
@@ -122,9 +121,6 @@ class SeaLevel extends Component {
    <img src="https://lh3.googleusercontent.com/8Zth6qhmuFMZ-dpWpJhBW8QZ8wSOo94xWKE9wToOASkKwd3PttdVoNvUTc2EoPd5PSR9BBlBQm60-pNmmumg9QI4yxeYURF8zJzmEejISs4_lb87y-_QO0Vx-KtiLYKO20uEx2IAMKcQzfNhLjwY6Q4myW3_cO1tDHjT7_R3bEc9bgvVM4y71VADEf8iHOELBXD1DZT-vmVyhULZ2joQQBs58epqJH8QxQC835ajYUOD9X4M87-ljL_SpoaY5H1mcUagarlN7fCgzqQhr0qRzn5kIuR64u7191rW1uX0QN6WFkShK4chhBMhOpxed604R4KbvVhtlot6BSqxCaGKA7aUU2cVrGIQJDF2A5m3AvUyiVVbEyoqn9Wih_gefAc8mzH9-u0pw1NqcrU0DZlRpYbcWFgzkf03Qmrn6Zch9ZFr9xdV90clDYiEkvqIVey3PYqgpS5eu7cDVFgzVUnPhHEk05VM2XfQtHXuEd8UAftksG5cMb5o1vHlAB_ILcZt8mquoquACDiBqblb3Y-iah8xUF8EsHglOZr_zEf6g_m6ndPuXCB-y7s1c8bhBAPVmAcnWYCnQSq0FQ676wHFamHW7gSmMSZpzyfVIwJez4_JSfRMyRKke_NsfpR9gqJj4Tdt-2-01sZjQQZ17BnBbBJ03fRs9F-dZkgSvpMGVZ7IKDvZR8O5cebHjdJM5QuFe_wmu0We56IdKI6okg1cpakd_DjSWqJ2FYyEn4oNSyGJh479=s813-no" className="ui medium circular image" alt="garbage dump"/>
      </div> 
   </div>
-
-
-
   <div class="middle aligned row">
   <div class="two wide column"></div>
     <div class="seven wide column">
@@ -140,21 +136,17 @@ class SeaLevel extends Component {
    <p style={{color:"#59ADAF", fontWeight:"bold"}}>1989         vs.         2014</p>
     </div>
     <div class="column">
-    
     <p style={{color:"#59ADAF", fontWeight:"bold", marginTop:"40px"}}>Almost the entire Aral sea has now dried up because the rivers leading to it were redirected to maintain cotton plantations</p>
-  
    <p style={{color:"#59ADAF", fontWeight:"bold"}}>Left is only arid desert...</p>
-  
    <p style={{color:"#59ADAF", fontWeight:"bold", marginTop:"40px"}}>Is fashion really worth all this destruction?</p>
     </div>
   </div>
 </div>
-          </div>
-          </div>
+</div>
+</div>
 </div>
     <div class="two wide column"></div>
   </div>
-
   <div class="middle aligned row" style={{backgroundColor:"#FEDDD6"}}> 
   <div className="two wide column"></div>
   <div class="ten wide column" style={{textAlign: "center"}}>
@@ -175,7 +167,6 @@ class SeaLevel extends Component {
        <Line type="monotone" dataKey="GMSL" stroke="#ff0080" activeDot={{r: 8}} dot={false}/>
       </LineChart>
       </div>
-     
   </div>
   <div className="two wide column"></div>
   </div>
